@@ -6,6 +6,14 @@ License: CC BY-NC 4.0
 MD5sum: 7c8622c62bb83cf60cd4c84c69745d1b
 NeedsCompilation: no
 
+Package: LEEF.ALL
+Version: 0.1.0
+Depends: bemovi, LEEF.Data, LEEF.archive.default, LEEF.measurement.bemovi, LEEF.measurement.flowcam,
+             LEEF.measurement.flowcytometer, LEEF.measurement.incubatortemp, LEEF.measurement.manualcount,
+             LEEF.measurement.respirometer, LEEF.measurement.toc,
+MD5sum: 7bda1cf7cbdcb92f6d8d53e5443649d4
+NeedsCompilation: no
+
 Package: LEEF.archive.default
 Version: 0.2.0
 Depends: R (>= 3.5.0), LEEF.Data
