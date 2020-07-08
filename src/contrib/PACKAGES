@@ -32,10 +32,10 @@ NeedsCompilation: no
 
 Package: LEEF.Data
 Version: 0.1.1.5
-Depends: R (>= 3.5.0)
+Depends: R (>= 3.5.0), ROriginStamp
 Imports: testthat, yaml, utils, R.utils, tools
 Suggests: covr, knitr, rmarkdown
-MD5sum: aefa091abc06e0fb6fad2aeb0569f14f
+MD5sum: b4b4489cb1f9cbaca544959a66e4d338
 NeedsCompilation: no
 
 Package: LEEF.measurement.bemovi
