@@ -100,3 +100,11 @@ Suggests: LEEF.Data, testthat, openssl
 License: MIT + file LICENSE
 MD5sum: d6c9b25b8884729cb168ab6aceea36d4
 NeedsCompilation: no
+
+Package: ROriginStamp
+Version: 0.6.1
+Imports: httr, jsonlite, yaml, settings
+Suggests: testthat, covr
+License: GPL-3 + file LICENSE
+MD5sum: 2d4dc2a1a998a5770f350e00c928ff41
+NeedsCompilation: no
