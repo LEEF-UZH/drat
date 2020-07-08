@@ -35,7 +35,7 @@ Version: 0.1.1.5
 Depends: R (>= 3.5.0)
 Imports: testthat, yaml, utils, R.utils, tools
 Suggests: covr, knitr, rmarkdown
-MD5sum: 9b343fe489b399fdf7789865ac2c1ed4
+MD5sum: aefa091abc06e0fb6fad2aeb0569f14f
 NeedsCompilation: no
 
 Package: LEEF.measurement.bemovi
@@ -44,7 +44,7 @@ Depends: R (>= 3.5.0)
 Imports: bemovi (>= 1.0.1), R.utils, utils, parallel
 Suggests: LEEF.Data, testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 301a1165a3f08c3b76250c74b42a3292
+MD5sum: 4a48411396da15dd8fc65f4ee15b3aff
 NeedsCompilation: no
 
 Package: LEEF.measurement.flowcam
