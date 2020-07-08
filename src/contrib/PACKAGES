@@ -7,11 +7,11 @@ MD5sum: 7c8622c62bb83cf60cd4c84c69745d1b
 NeedsCompilation: no
 
 Package: LEEF
-Version: 0.1.0
+Version: 0.1.1
 Depends: bemovi, LEEF.Data, LEEF.archive.default, LEEF.measurement.bemovi, LEEF.measurement.flowcam,
              LEEF.measurement.flowcytometer, LEEF.measurement.incubatortemp, LEEF.measurement.manualcount,
-             LEEF.measurement.respirometer, LEEF.measurement.toc,
-MD5sum: 9bbc774f8cbd7c98054ce69fea1e607c
+             LEEF.measurement.respirometer, LEEF.measurement.toc
+MD5sum: 85ad0a861e275a2bb133e36c266a3e89
 NeedsCompilation: no
 
 Package: LEEF.ALL
