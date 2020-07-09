@@ -31,7 +31,7 @@ Version: 0.1.1.6
 Depends: R (>= 3.5.0)
 Imports: testthat, yaml, utils, R.utils, tools
 Suggests: covr, knitr, rmarkdown
-MD5sum: 9ea667837b2532cb550fcdf550934738
+MD5sum: 9cac0b470df645938d0c99dd8e154e2b
 NeedsCompilation: no
 
 Package: LEEF.measurement.bemovi
