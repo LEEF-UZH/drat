@@ -1,11 +1,3 @@
-Package: bemovi.LEEF
-Version: 1.0.4
-Depends: R (>= 3.0.2)
-Imports: data.table, circular, settings, yaml
-License: CC BY-NC 4.0
-MD5sum: 140b194432c46a4c690cad13a1bd644c
-NeedsCompilation: no
-
 Package: LEEF
 Version: 0.1.1
 Depends: bemovi, LEEF.Data, LEEF.archive.default,
@@ -35,11 +27,11 @@ MD5sum: 3d9c8ab254d7209aaf1d906960041044
 NeedsCompilation: no
 
 Package: LEEF.Data
-Version: 0.1.1.5
-Depends: R (>= 3.5.0), ROriginStamp
+Version: 0.1.1.6
+Depends: R (>= 3.5.0)
 Imports: testthat, yaml, utils, R.utils, tools
 Suggests: covr, knitr, rmarkdown
-MD5sum: b4b4489cb1f9cbaca544959a66e4d338
+MD5sum: 9ea667837b2532cb550fcdf550934738
 NeedsCompilation: no
 
 Package: LEEF.measurement.bemovi
