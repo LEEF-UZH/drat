@@ -6,19 +6,29 @@ License: CC BY-NC 4.0
 MD5sum: 7c8622c62bb83cf60cd4c84c69745d1b
 NeedsCompilation: no
 
+Package: bemovi.LEEF
+Version: 1.0.2
+Depends: R (>= 3.0.2)
+Imports: data.table, circular, settings, yaml
+License: CC BY-NC 4.0
+MD5sum: a0e8e8ec62f7e108efde9f8d095da5b6
+NeedsCompilation: no
+
 Package: LEEF
 Version: 0.1.1
-Depends: bemovi, LEEF.Data, LEEF.archive.default, LEEF.measurement.bemovi, LEEF.measurement.flowcam,
-             LEEF.measurement.flowcytometer, LEEF.measurement.incubatortemp, LEEF.measurement.manualcount,
-             LEEF.measurement.respirometer, LEEF.measurement.toc
+Depends: bemovi, LEEF.Data, LEEF.archive.default, LEEF.measurement.bemovi,
+         LEEF.measurement.flowcam, LEEF.measurement.flowcytometer,
+         LEEF.measurement.incubatortemp, LEEF.measurement.manualcount,
+         LEEF.measurement.respirometer, LEEF.measurement.toc
 MD5sum: 85ad0a861e275a2bb133e36c266a3e89
 NeedsCompilation: no
 
 Package: LEEF.ALL
 Version: 0.1.0
-Depends: bemovi, LEEF.Data, LEEF.archive.default, LEEF.measurement.bemovi, LEEF.measurement.flowcam,
-             LEEF.measurement.flowcytometer, LEEF.measurement.incubatortemp, LEEF.measurement.manualcount,
-             LEEF.measurement.respirometer, LEEF.measurement.toc,
+Depends: bemovi, LEEF.Data, LEEF.archive.default, LEEF.measurement.bemovi,
+         LEEF.measurement.flowcam, LEEF.measurement.flowcytometer,
+         LEEF.measurement.incubatortemp, LEEF.measurement.manualcount,
+         LEEF.measurement.respirometer, LEEF.measurement.toc,
 MD5sum: 7bda1cf7cbdcb92f6d8d53e5443649d4
 NeedsCompilation: no
 
