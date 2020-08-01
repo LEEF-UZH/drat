@@ -45,10 +45,10 @@ NeedsCompilation: no
 Package: LEEF.measurement.bemovi
 Version: 0.5.1
 Depends: R (>= 3.5.0)
-Imports: bemovi (>= 1.0.1), R.utils, utils, parallel
+Imports: bemovi.LEEF (>= 1.0.1), R.utils, utils, parallel
 Suggests: LEEF.Data, testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 4a48411396da15dd8fc65f4ee15b3aff
+MD5sum: 6e6490baafadd4b7e3c07e66a141d3c7
 NeedsCompilation: no
 
 Package: LEEF.measurement.flowcam
