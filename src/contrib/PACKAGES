@@ -8,22 +8,11 @@ NeedsCompilation: no
 
 Package: LEEF
 Version: 0.1.1
-Depends: bemovi, LEEF.Data, LEEF.archive.default,
-        LEEF.measurement.bemovi, LEEF.measurement.flowcam,
-        LEEF.measurement.flowcytometer, LEEF.measurement.incubatortemp,
-        LEEF.measurement.manualcount, LEEF.measurement.respirometer,
-        LEEF.measurement.toc
-MD5sum: 85ad0a861e275a2bb133e36c266a3e89
-NeedsCompilation: no
-
-Package: LEEF.ALL
-Version: 0.1.0
-Depends: bemovi, LEEF.Data, LEEF.archive.default,
-        LEEF.measurement.bemovi, LEEF.measurement.flowcam,
-        LEEF.measurement.flowcytometer, LEEF.measurement.incubatortemp,
-        LEEF.measurement.manualcount, LEEF.measurement.respirometer,
-        LEEF.measurement.toc,
-MD5sum: 7bda1cf7cbdcb92f6d8d53e5443649d4
+Depends: LEEF.Data, LEEF.archive.default, LEEF.measurement.bemovi,
+        LEEF.measurement.flowcam, LEEF.measurement.flowcytometer,
+        LEEF.measurement.incubatortemp, LEEF.measurement.manualcount,
+        LEEF.measurement.respirometer, LEEF.measurement.toc
+MD5sum: b5d0b68077a7252f376bd6dae92b93a8
 NeedsCompilation: no
 
 Package: LEEF.archive.default
