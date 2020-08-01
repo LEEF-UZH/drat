@@ -43,12 +43,12 @@ MD5sum: 9cac0b470df645938d0c99dd8e154e2b
 NeedsCompilation: no
 
 Package: LEEF.measurement.bemovi
-Version: 0.5.1
+Version: 0.5.2
 Depends: R (>= 3.5.0)
 Imports: bemovi.LEEF (>= 1.0.1), R.utils, utils, parallel
 Suggests: LEEF.Data, testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 6e6490baafadd4b7e3c07e66a141d3c7
+MD5sum: 2864a387e75d7d661123d6b80e4b4e6f
 NeedsCompilation: no
 
 Package: LEEF.measurement.flowcam
