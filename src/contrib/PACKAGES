@@ -7,12 +7,31 @@ MD5sum: 140b194432c46a4c690cad13a1bd644c
 NeedsCompilation: no
 
 Package: LEEF
+Version: 0.1.0
+Depends: bemovi, LEEF.Data, LEEF.archive.default, LEEF.measurement.bemovi,
+         LEEF.measurement.flowcam, LEEF.measurement.flowcytometer,
+         LEEF.measurement.incubatortemp, LEEF.measurement.manualcount,
+         LEEF.measurement.respirometer, LEEF.measurement.toc,
+MD5sum: 9bbc774f8cbd7c98054ce69fea1e607c
+NeedsCompilation: no
+
+Package: LEEF
 Version: 0.1.1
 Depends: LEEF.Data, LEEF.archive.default, LEEF.measurement.bemovi,
-        LEEF.measurement.flowcam, LEEF.measurement.flowcytometer,
-        LEEF.measurement.incubatortemp, LEEF.measurement.manualcount,
-        LEEF.measurement.respirometer, LEEF.measurement.toc
+         LEEF.measurement.flowcam, LEEF.measurement.flowcytometer,
+         LEEF.measurement.incubatortemp, LEEF.measurement.manualcount,
+         LEEF.measurement.respirometer, LEEF.measurement.toc
 MD5sum: b5d0b68077a7252f376bd6dae92b93a8
+NeedsCompilation: no
+
+Package: LEEF
+Version: 0.1.2
+Depends: LEEF.Data, LEEF.archive.default, LEEF.measurement.bemovi,
+         LEEF.measurement.flowcam, LEEF.measurement.flowcytometer,
+         LEEF.measurement.incubatortemp, LEEF.measurement.manualcount,
+         LEEF.measurement.respirometer, LEEF.measurement.toc
+Imports: tools
+MD5sum: 67e9847f15cd9d560516c65b99e63561
 NeedsCompilation: no
 
 Package: LEEF.archive.default
@@ -21,6 +40,14 @@ Depends: R (>= 3.5.0), LEEF.Data
 Imports: dplyr, readr
 License: MIT + file LICENSE
 MD5sum: 3d9c8ab254d7209aaf1d906960041044
+NeedsCompilation: no
+
+Package: LEEF.Data
+Version: 0.1.1.5
+Depends: R (>= 3.5.0), ROriginStamp
+Imports: testthat, yaml, utils, R.utils, tools
+Suggests: covr, knitr, rmarkdown
+MD5sum: b4b4489cb1f9cbaca544959a66e4d338
 NeedsCompilation: no
 
 Package: LEEF.Data
