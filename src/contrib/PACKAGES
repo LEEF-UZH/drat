@@ -117,6 +117,15 @@ License: MIT + file LICENSE
 MD5sum: d2958be34e0798005ced16308d12c969
 NeedsCompilation: no
 
+Package: LEEF.measurement.incubatortemp
+Version: 0.8.0
+Depends: R (>= 3.5.0)
+Imports: dplyr, readr
+Suggests: LEEF.Data, testthat, openssl
+License: MIT + file LICENSE
+MD5sum: 0683bba9a761a0cd60c83a3f46778cd9
+NeedsCompilation: no
+
 Package: LEEF.measurement.manualcount
 Version: 0.5.1
 Depends: R (>= 3.5.0)
