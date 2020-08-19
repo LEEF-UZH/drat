@@ -51,6 +51,15 @@ License: MIT + file LICENSE
 MD5sum: 3d9c8ab254d7209aaf1d906960041044
 NeedsCompilation: no
 
+Package: LEEF.archive.default
+Version: 0.8.0
+Depends: R (>= 3.5.0)
+Imports: dplyr, readr
+Suggests: LEEF.Data
+License: MIT + file LICENSE
+MD5sum: c5bea317c79fde0a515ecea1bb5bdf30
+NeedsCompilation: no
+
 Package: LEEF.Data
 Version: 0.1.1.5
 Depends: R (>= 3.5.0), ROriginStamp
