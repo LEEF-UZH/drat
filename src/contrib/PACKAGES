@@ -100,7 +100,7 @@ Depends: R (>= 3.5.0)
 Imports: R.utils, dplyr, magrittr, readr, tiff, stats
 Suggests: LEEF.Data, testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 62c378312412aba9f2ce24fc802cee7a
+MD5sum: 3b9c8e4baddbbb65a34045fe9454ac2e
 NeedsCompilation: no
 
 Package: LEEF.measurement.flowcytometer
