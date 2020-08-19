@@ -100,7 +100,7 @@ Depends: R (>= 3.5.0)
 Imports: R.utils, dplyr, magrittr, readr, tiff, stats
 Suggests: LEEF.Data, testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 04ae4f7d536aaacc68d32d76d2bdfec0
+MD5sum: 62c378312412aba9f2ce24fc802cee7a
 NeedsCompilation: no
 
 Package: LEEF.measurement.flowcytometer
@@ -110,6 +110,15 @@ Imports: R.utils, flowCore, tiff
 Suggests: LEEF.Data, testthat, openssl
 License: MIT + file LICENSE
 MD5sum: 0cbac6310e79e839d6c09869e4e71748
+NeedsCompilation: no
+
+Package: LEEF.measurement.flowcytometer
+Version: 0.5.1
+Depends: R (>= 3.5.0)
+Imports: R.utils, flowCore, tiff
+Suggests: LEEF.Data, testthat, openssl
+License: MIT + file LICENSE
+MD5sum: 7565972acad1dc4df000ca52adfc664c
 NeedsCompilation: no
 
 Package: LEEF.measurement.incubatortemp
@@ -127,7 +136,7 @@ Depends: R (>= 3.5.0)
 Imports: dplyr, readr
 Suggests: LEEF.Data, testthat, openssl
 License: MIT + file LICENSE
-MD5sum: f2f5260a4207fead35f69f4ac66bc6df
+MD5sum: 79f804e57500c0d86038fa8b4fbe633c
 NeedsCompilation: no
 
 Package: LEEF.measurement.manualcount
@@ -145,7 +154,7 @@ Depends: R (>= 3.5.0)
 Imports: dplyr, readr
 Suggests: LEEF.Data, testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 15f188135e3a2df37318717e3eef16dd
+MD5sum: 5b500bcc059fc959fa944feef862f1d3
 NeedsCompilation: no
 
 Package: LEEF.measurement.respirometer
@@ -163,7 +172,7 @@ Depends: R (>= 3.5.0)
 Imports: utils
 Suggests: LEEF.Data, testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 3c49d9ebf881517cf8a676a52bb0d79a
+MD5sum: e7f4dcf89462c258cb199dd951a2b453
 NeedsCompilation: no
 
 Package: LEEF.measurement.toc
@@ -181,7 +190,7 @@ Depends: R (>= 3.5.0)
 Imports: utils
 Suggests: LEEF.Data, testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 845eba256ebb07d0c2f9783fb02ea102
+MD5sum: 15f341d8a26513570c440d01e5814913
 NeedsCompilation: no
 
 Package: ROriginStamp
