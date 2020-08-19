@@ -190,7 +190,7 @@ Depends: R (>= 3.5.0)
 Imports: utils
 Suggests: LEEF.Data, testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 15f341d8a26513570c440d01e5814913
+MD5sum: 19ddc9ff65de9191ac9e10b0d085149a
 NeedsCompilation: no
 
 Package: ROriginStamp
