@@ -55,9 +55,8 @@ Package: LEEF.archive.default
 Version: 0.8.0
 Depends: R (>= 3.5.0)
 Imports: openssl
-Suggests: LEEF
 License: MIT + file LICENSE
-MD5sum: 984117a39d75a3176e4984af0fc6fa12
+MD5sum: 4da1cef0a7aa3aadcb7dadc593de58ab
 NeedsCompilation: no
 
 Package: LEEF.Data
