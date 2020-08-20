@@ -51,6 +51,14 @@ License: MIT + file LICENSE
 MD5sum: 553895a668d9ff78c4c818b8055a62b7
 NeedsCompilation: no
 
+Package: LEEF.backend.csv
+Version: 0.7.0
+Depends: R (>= 3.5.0)
+Imports: utils, yaml
+License: MIT + file LICENSE
+MD5sum: 5cd6c214dc642c874c0a6234bc9370dc
+NeedsCompilation: no
+
 Package: LEEF.Data
 Version: 0.1.1.5
 Depends: R (>= 3.5.0), ROriginStamp
