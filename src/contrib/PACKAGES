@@ -44,19 +44,11 @@ MD5sum: 67e9847f15cd9d560516c65b99e63561
 NeedsCompilation: no
 
 Package: LEEF.archive.default
-Version: 0.2.0
-Depends: R (>= 3.5.0), LEEF.Data
-Imports: dplyr, readr
-License: MIT + file LICENSE
-MD5sum: 3d9c8ab254d7209aaf1d906960041044
-NeedsCompilation: no
-
-Package: LEEF.archive.default
 Version: 0.8.0
 Depends: R (>= 3.5.0)
 Imports: openssl
 License: MIT + file LICENSE
-MD5sum: 4da1cef0a7aa3aadcb7dadc593de58ab
+MD5sum: 7403b06f1c2896c8eefdcdc96434d4f9
 NeedsCompilation: no
 
 Package: LEEF.Data
