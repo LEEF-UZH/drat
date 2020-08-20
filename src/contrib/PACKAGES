@@ -142,9 +142,9 @@ Package: LEEF.measurement.incubatortemp
 Version: 0.8.0
 Depends: R (>= 3.5.0)
 Imports: dplyr, readr
-Suggests: LEEF, testthat, openssl
+Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 03d76189ccbabea041b042a8b29ff5a1
+MD5sum: f69d2bfada0a61a7d204ef680d11e1ca
 NeedsCompilation: no
 
 Package: LEEF.measurement.manualcount
