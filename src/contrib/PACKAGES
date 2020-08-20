@@ -161,9 +161,9 @@ Package: LEEF.measurement.manualcount
 Version: 0.8.0
 Depends: R (>= 3.5.0)
 Imports: dplyr, readr
-Suggests: LEEF.Data, testthat, openssl
+Suggests: LEEF, testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 26a68635eec714dcf17b1c413e39662c
+MD5sum: d876796b7b6ede8c388efb3e977d0617
 NeedsCompilation: no
 
 Package: LEEF.measurement.respirometer
