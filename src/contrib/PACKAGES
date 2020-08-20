@@ -179,9 +179,9 @@ Package: LEEF.measurement.respirometer
 Version: 0.8.0
 Depends: R (>= 3.5.0)
 Imports: utils
-Suggests: LEEF.Data, testthat, openssl
+Suggests: LEEF, testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 19dce1640c4abcd77a9dfd9dd520bcdf
+MD5sum: b3af95a005773eec8c590e304f850f33
 NeedsCompilation: no
 
 Package: LEEF.measurement.toc
