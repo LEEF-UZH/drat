@@ -162,7 +162,7 @@ Depends: R (>= 3.5.0)
 Imports: dplyr, readr
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 640410ac2f200a410d6eaf219b7baa95
+MD5sum: 682c03d7d8737201004910334715cee2
 NeedsCompilation: no
 
 Package: LEEF.measurement.respirometer
