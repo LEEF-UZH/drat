@@ -54,10 +54,10 @@ NeedsCompilation: no
 Package: LEEF.archive.default
 Version: 0.8.0
 Depends: R (>= 3.5.0)
-Imports: dplyr, readr
-Suggests: LEEF.Data
+Imports: openssl
+Suggests: LEEF
 License: MIT + file LICENSE
-MD5sum: c5bea317c79fde0a515ecea1bb5bdf30
+MD5sum: 984117a39d75a3176e4984af0fc6fa12
 NeedsCompilation: no
 
 Package: LEEF.Data
