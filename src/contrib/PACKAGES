@@ -48,7 +48,7 @@ Version: 0.8.0
 Depends: R (>= 3.5.0)
 Imports: openssl
 License: MIT + file LICENSE
-MD5sum: 4e3a08f466b3da90092d4db4befc5067
+MD5sum: 4858d416b8cd72ed8062cd5c0d6efd8d
 NeedsCompilation: no
 
 Package: LEEF.Data
