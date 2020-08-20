@@ -61,7 +61,7 @@ Version: 0.8.0
 Depends: R (>= 3.5.0)
 Imports: openssl
 License: MIT + file LICENSE
-MD5sum: 553895a668d9ff78c4c818b8055a62b7
+MD5sum: a59f5ecdf46625a4b3de92c2709140b3
 NeedsCompilation: no
 
 Package: LEEF.backend.csv
