@@ -125,9 +125,9 @@ Package: LEEF.measurement.flowcytometer
 Version: 0.5.1
 Depends: R (>= 3.5.0)
 Imports: R.utils, flowCore, tiff
-Suggests: LEEF.Data, testthat, openssl
+Suggests: LEEF, testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 62f9aef41f1288aa296298fa7e7d80d6
+MD5sum: 5671d97382c45da64d5131c0bed1d4a0
 NeedsCompilation: no
 
 Package: LEEF.measurement.incubatortemp
