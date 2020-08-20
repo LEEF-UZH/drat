@@ -107,9 +107,9 @@ Package: LEEF.measurement.flowcam
 Version: 0.8.0
 Depends: R (>= 3.5.0)
 Imports: R.utils, dplyr, magrittr, readr, tiff, stats
-Suggests: LEEF.Data, testthat, openssl
+Suggests: LEEF, testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 3b9c8e4baddbbb65a34045fe9454ac2e
+MD5sum: ea3f91b82c4fa253a9d2935b45a65bd1
 NeedsCompilation: no
 
 Package: LEEF.measurement.flowcytometer
