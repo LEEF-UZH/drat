@@ -197,9 +197,9 @@ Package: LEEF.measurement.toc
 Version: 0.7.0
 Depends: R (>= 3.5.0)
 Imports: utils
-Suggests: LEEF.Data, testthat, openssl
+Suggests: LEEF, testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 19ddc9ff65de9191ac9e10b0d085149a
+MD5sum: 6d0cbd25a16b01bd09b2f1c3fd836d0b
 NeedsCompilation: no
 
 Package: ROriginStamp
