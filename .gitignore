@@ -1,2 +1,3 @@
 !*.tar.gz
 .gitattributes
+.DS_Store
