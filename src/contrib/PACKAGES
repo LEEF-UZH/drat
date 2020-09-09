@@ -46,14 +46,14 @@ NeedsCompilation: no
 Package: LEEF
 Version: 0.7.0
 Depends: R (>= 3.5.0),
-Imports: LEEF.archive.default, LEEF.measurement.bemovi,
-        LEEF.measurement.flowcam, LEEF.measurement.flowcytometer,
-        LEEF.measurement.incubatortemp, LEEF.measurement.manualcount,
-        LEEF.measurement.respirometer, LEEF.measurement.toc, testthat,
-        yaml, utils, R.utils, tools
+Imports: LEEF.measurement.bemovi, LEEF.measurement.flowcam,
+        LEEF.measurement.flowcytometer, LEEF.measurement.incubatortemp,
+        LEEF.measurement.manualcount, LEEF.measurement.respirometer,
+        LEEF.measurement.toc, LEEF.archive.default, LEEF.backend.csv,
+        testthat, yaml, utils, R.utils, tools
 Suggests: covr, knitr, rmarkdown, drat
 License: MIT + file LICENSE
-MD5sum: adf090d04dcde2b18ad2a2dfde0e9045
+MD5sum: 64506732c67c23502b34bed4f0a34a14
 NeedsCompilation: no
 
 Package: LEEF.archive.default
