@@ -53,7 +53,7 @@ Imports: LEEF.archive.default, LEEF.measurement.bemovi,
         yaml, utils, R.utils, tools
 Suggests: covr, knitr, rmarkdown, drat
 License: MIT + file LICENSE
-MD5sum: f990163b4e967cae73a6850dd2eef9ae
+MD5sum: adf090d04dcde2b18ad2a2dfde0e9045
 NeedsCompilation: no
 
 Package: LEEF.archive.default
