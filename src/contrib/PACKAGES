@@ -69,7 +69,7 @@ Version: 0.7.0
 Depends: R (>= 3.5.0)
 Imports: utils, yaml
 License: MIT + file LICENSE
-MD5sum: 5cd6c214dc642c874c0a6234bc9370dc
+MD5sum: 272ad5dd522cc47adaf1ece8e78f1471
 NeedsCompilation: no
 
 Package: LEEF.Data
