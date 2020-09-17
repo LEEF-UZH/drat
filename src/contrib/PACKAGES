@@ -16,29 +16,28 @@ NeedsCompilation: no
 
 Package: LEEF
 Version: 0.1.0
-Depends: bemovi, LEEF.Data, LEEF.archive.default,
-        LEEF.measurement.bemovi, LEEF.measurement.flowcam,
-        LEEF.measurement.flowcytometer, LEEF.measurement.incubatortemp,
-        LEEF.measurement.manualcount, LEEF.measurement.respirometer,
-        LEEF.measurement.toc,
+Depends: bemovi, LEEF.Data, LEEF.archive.default, LEEF.measurement.bemovi,
+          LEEF.measurement.flowcam, LEEF.measurement.flowcytometer,
+          LEEF.measurement.incubatortemp, LEEF.measurement.manualcount,
+          LEEF.measurement.respirometer, LEEF.measurement.toc,
 MD5sum: 9bbc774f8cbd7c98054ce69fea1e607c
 NeedsCompilation: no
 
 Package: LEEF
 Version: 0.1.1
 Depends: LEEF.Data, LEEF.archive.default, LEEF.measurement.bemovi,
-        LEEF.measurement.flowcam, LEEF.measurement.flowcytometer,
-        LEEF.measurement.incubatortemp, LEEF.measurement.manualcount,
-        LEEF.measurement.respirometer, LEEF.measurement.toc
+          LEEF.measurement.flowcam, LEEF.measurement.flowcytometer,
+          LEEF.measurement.incubatortemp, LEEF.measurement.manualcount,
+          LEEF.measurement.respirometer, LEEF.measurement.toc
 MD5sum: b5d0b68077a7252f376bd6dae92b93a8
 NeedsCompilation: no
 
 Package: LEEF
 Version: 0.1.2
 Depends: LEEF.Data, LEEF.archive.default, LEEF.measurement.bemovi,
-        LEEF.measurement.flowcam, LEEF.measurement.flowcytometer,
-        LEEF.measurement.incubatortemp, LEEF.measurement.manualcount,
-        LEEF.measurement.respirometer, LEEF.measurement.toc
+          LEEF.measurement.flowcam, LEEF.measurement.flowcytometer,
+          LEEF.measurement.incubatortemp, LEEF.measurement.manualcount,
+          LEEF.measurement.respirometer, LEEF.measurement.toc
 Imports: tools
 MD5sum: 67e9847f15cd9d560516c65b99e63561
 NeedsCompilation: no
@@ -47,10 +46,9 @@ Package: LEEF
 Version: 0.7.0
 Depends: R (>= 3.5.0),
 Imports: LEEF.measurement.bemovi, LEEF.measurement.flowcam,
-        LEEF.measurement.flowcytometer, LEEF.measurement.incubatortemp,
-        LEEF.measurement.manualcount, LEEF.measurement.o2meter,
-        LEEF.measurement.toc, LEEF.archive.default, LEEF.backend.csv,
-        testthat, yaml, utils, R.utils, tools
+          LEEF.measurement.flowcytometer, LEEF.measurement.incubatortemp,
+          LEEF.measurement.manualcount, LEEF.measurement.o2meter, LEEF.measurement.toc,
+          LEEF.archive.default, LEEF.backend.csv, testthat, yaml, utils, R.utils, tools
 Suggests: covr, knitr, rmarkdown, drat, shiny
 License: MIT + file LICENSE
 MD5sum: 77bc880f9448c06c8ec79cbbafd9f78d
