@@ -48,12 +48,12 @@ Version: 0.7.0
 Depends: R (>= 3.5.0),
 Imports: LEEF.measurement.bemovi, LEEF.measurement.flowcam,
         LEEF.measurement.flowcytometer, LEEF.measurement.incubatortemp,
-        LEEF.measurement.manualcount, LEEF.measurement.respirometer,
+        LEEF.measurement.manualcount, LEEF.measurement.o2meter,
         LEEF.measurement.toc, LEEF.archive.default, LEEF.backend.csv,
         testthat, yaml, utils, R.utils, tools
-Suggests: covr, knitr, rmarkdown, drat
+Suggests: covr, knitr, rmarkdown, drat, shiny
 License: MIT + file LICENSE
-MD5sum: 07b8ccadbbdfade07ff7c43ff08b6aa5
+MD5sum: 77bc880f9448c06c8ec79cbbafd9f78d
 NeedsCompilation: no
 
 Package: LEEF.archive.default
