@@ -51,9 +51,9 @@ Imports: LEEF.measurement.bemovi, LEEF.measurement.flowcam,
         LEEF.measurement.manualcount, LEEF.measurement.o2meter,
         LEEF.measurement.toc, LEEF.archive.default, LEEF.backend.csv,
         testthat, yaml, utils, R.utils, tools
-Suggests: covr, knitr, rmarkdown, drat, shiny
+Suggests: covr, knitr, rmarkdown, drat, shiny, shinyFiles
 License: MIT + file LICENSE
-MD5sum: 77bc880f9448c06c8ec79cbbafd9f78d
+MD5sum: a44e6160d0771a1e4c8ecafcfeb5d344
 NeedsCompilation: no
 
 Package: LEEF.archive.default
