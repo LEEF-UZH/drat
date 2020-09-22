@@ -128,7 +128,7 @@ Depends: R (>= 3.5.0)
 Imports: dplyr
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 052290a45175148d9df602f77e763fe5
+MD5sum: e69815a540df0f0396cdf1a2e6468e97
 NeedsCompilation: no
 
 Package: LEEF.measurement.manualcount
