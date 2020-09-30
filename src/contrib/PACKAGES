@@ -1,4 +1,12 @@
 Package: bemovi.LEEF
+Version: 1.0.10
+Depends: R (>= 3.0.2)
+Imports: data.table, circular, settings, yaml
+License: CC BY-NC 4.0
+MD5sum: a2eb7e7c4ab9c3b00f95946feecd5ae9
+NeedsCompilation: no
+
+Package: bemovi.LEEF
 Version: 1.0.4
 Depends: R (>= 3.0.2)
 Imports: data.table, circular, settings, yaml
