@@ -19,7 +19,7 @@ Version: 1.0.12
 Depends: R (>= 3.0.2)
 Imports: data.table, circular, settings, yaml
 License: CC BY-NC 4.0
-MD5sum: aa903d538c5eed9c91a3cdf4d65e7fc4
+MD5sum: 37510b4c1139338c223e19f39a1b4303
 NeedsCompilation: no
 
 Package: bemovi.LEEF
