@@ -138,7 +138,7 @@ Depends: R (>= 3.5.0)
 Imports: bemovi.LEEF (>= 1.0.1), R.utils, utils, parallel
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 1ddfd3a6440ddd10fe280907c2bc24c1
+MD5sum: 7b81de475a3d29c925cf19ff462845fe
 NeedsCompilation: no
 
 Package: LEEF.measurement.flowcam
