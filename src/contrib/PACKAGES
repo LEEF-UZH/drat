@@ -174,7 +174,7 @@ Depends: R (>= 3.5.0)
 Imports: R.utils, flowCore, tiff
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 4b88e85980975910e7c1e5e6747c7cc1
+MD5sum: 819ff8cdca856b84594f226d845a8186
 NeedsCompilation: no
 
 Package: LEEF.measurement.incubatortemp
