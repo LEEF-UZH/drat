@@ -224,10 +224,10 @@ NeedsCompilation: no
 Package: LEEF.measurement.manualcount
 Version: 0.8.0
 Depends: R (>= 3.5.0)
-Imports: dplyr, readr
+Imports: dplyr, readxl
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 9113f824073265a9f8fef8828cf0f74d
+MD5sum: 297de44fdacf678d5f10fcf8f9ea71b1
 NeedsCompilation: no
 
 Package: LEEF.measurement.o2meter
