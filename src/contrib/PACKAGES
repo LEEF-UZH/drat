@@ -263,7 +263,7 @@ Depends: R (>= 3.5.0)
 Imports: utils
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 09869c51bc0d5595da02335840b89c2e
+MD5sum: 4a22b96ac02532ca041ef110f9383ac9
 NeedsCompilation: no
 
 Package: ROriginStamp
