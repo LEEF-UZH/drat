@@ -239,13 +239,13 @@ License: MIT + file LICENSE
 MD5sum: 41c27d231ee99d4f51d18d7f4fa9a85c
 NeedsCompilation: no
 
-Package: LEEF.measurement.respirometer
-Version: 0.8.0
+Package: LEEF.measurement.o2meter
+Version: 0.9.0
 Depends: R (>= 3.5.0)
 Imports: utils
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: b0763666d1641a9d9c858c24d7599283
+MD5sum: 8061b704de82c270f10cc7ea6085486f
 NeedsCompilation: no
 
 Package: LEEF.measurement.toc
