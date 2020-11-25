@@ -305,10 +305,10 @@ NeedsCompilation: no
 Package: LEEF.measurement.toc
 Version: 0.8.5
 Depends: R (>= 3.5.0)
-Imports: utils
+Imports: utils, yaml
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 4cbe557f3b825070a0df28d8544792a2
+MD5sum: c79833562b9d505446970820c8ec1240
 NeedsCompilation: no
 
 Package: ROriginStamp
