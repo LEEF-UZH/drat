@@ -120,7 +120,7 @@ Version: 0.8.5
 Depends: R (>= 3.5.0)
 Imports: DBI, RSQLite, yaml
 License: MIT + file LICENSE
-MD5sum: b5db3110feb61b56c9f069102e26a97e
+MD5sum: a75923a140af60ed04a0484d150d43d4
 NeedsCompilation: no
 
 Package: LEEF.Data
