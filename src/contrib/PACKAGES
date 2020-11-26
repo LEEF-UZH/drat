@@ -92,11 +92,11 @@ Depends: R (>= 3.5.0),
 Imports: LEEF.measurement.bemovi, LEEF.measurement.flowcam,
         LEEF.measurement.flowcytometer, LEEF.measurement.manualcount,
         LEEF.measurement.o2meter, LEEF.measurement.toc,
-        LEEF.archive.default, LEEF.backend.csv, testthat, yaml, drat,
-        utils, R.utils, tools
+        LEEF.archive.default, LEEF.backend.sqlite, testthat, yaml,
+        drat, utils, R.utils, tools
 Suggests: covr, knitr, rmarkdown, shiny, shinyFiles
 License: MIT + file LICENSE
-MD5sum: 9ded704ba75f4067e36f4145344a5ee6
+MD5sum: 676832fff51fff4eda640360d1376765
 NeedsCompilation: no
 
 Package: LEEF.archive.default
