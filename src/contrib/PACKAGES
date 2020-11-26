@@ -96,7 +96,7 @@ Imports: LEEF.measurement.bemovi, LEEF.measurement.flowcam,
         drat, utils, R.utils, tools
 Suggests: covr, knitr, rmarkdown, shiny, shinyFiles
 License: MIT + file LICENSE
-MD5sum: 676832fff51fff4eda640360d1376765
+MD5sum: 870cf1e8577bf6c1567297a0cbb5779c
 NeedsCompilation: no
 
 Package: LEEF.archive.default
