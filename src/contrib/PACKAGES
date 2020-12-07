@@ -206,7 +206,7 @@ Depends: R (>= 3.5.0)
 Imports: R.utils, flowCore (>= 2.0), tiff, yaml
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: fff4c60e272db5514cab37f65d60af55
+MD5sum: efba385463af7648cc55025fcfd3b684
 NeedsCompilation: no
 
 Package: LEEF.measurement.manualcount
