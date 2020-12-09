@@ -125,7 +125,7 @@ Version: 0.7.0
 Depends: R (>= 3.5.0)
 Imports: utils, yaml
 License: MIT + file LICENSE
-MD5sum: 4ce018d13891b7fa833679d99b2de77e
+MD5sum: db3d52003ec17fd2557020f282404cea
 NeedsCompilation: no
 
 Package: LEEF.backend.sqlite
