@@ -179,7 +179,7 @@ Depends: R (>= 3.5.0)
 Imports: data.table, yaml
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: a2387d7f5b5a50d2148cfbb63314724a
+MD5sum: c1f76ac990e64e29cedb4cf5bc82d2cb
 NeedsCompilation: no
 
 Package: LEEF.measurement.flowcytometer
