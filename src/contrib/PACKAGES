@@ -120,14 +120,6 @@ License: MIT + file LICENSE
 MD5sum: 1d7894f7cf53142581e287d0b18c6c9a
 NeedsCompilation: no
 
-Package: LEEF.backend.csv
-Version: 0.7.0
-Depends: R (>= 3.5.0)
-Imports: utils, yaml
-License: MIT + file LICENSE
-MD5sum: db3d52003ec17fd2557020f282404cea
-NeedsCompilation: no
-
 Package: LEEF.backend.sqlite
 Version: 0.8.5
 Depends: R (>= 3.5.0)
@@ -161,7 +153,7 @@ Imports: bemovi.LEEF (>= 1.0.1), R.utils, utils, parallel, data.table,
         dplyr, magrittr, yaml, rlang
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 8079751a4113814e902a0c85c32ee332
+MD5sum: 197d1ece710ade2c2a724cbdc25fb0d2
 NeedsCompilation: no
 
 Package: LEEF.measurement.flowcam
