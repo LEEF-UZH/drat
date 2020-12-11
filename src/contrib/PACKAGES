@@ -133,7 +133,7 @@ Version: 0.8.5
 Depends: R (>= 3.5.0)
 Imports: DBI, RSQLite, yaml
 License: MIT + file LICENSE
-MD5sum: 69f5adc0d6eaaa0dd34278b6ae87918f
+MD5sum: 62a1927690c93197f2580f911e602997
 NeedsCompilation: no
 
 Package: LEEF.measurement.bemovi
