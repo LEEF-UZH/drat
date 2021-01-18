@@ -120,12 +120,12 @@ Version: 0.7.1
 Depends: R (>= 3.5.0),
 Imports: LEEF.measurement.bemovi, LEEF.measurement.flowcam,
         LEEF.measurement.flowcytometer, LEEF.measurement.manualcount,
-        LEEF.measurement.o2meter, LEEF.measurement.toc,
-        LEEF.archive.default, LEEF.backend.sqlite, testthat, yaml,
-        drat, utils, R.utils, tools
+        LEEF.measurement.o2meter, LEEF.archive.default,
+        LEEF.backend.sqlite, testthat, yaml, drat, utils, R.utils,
+        tools
 Suggests: covr, knitr, rmarkdown, shiny, shinyFiles
 License: MIT + file LICENSE
-MD5sum: 8003a32c1d59bdcd7ff9b010844c7975
+MD5sum: 1272fd3c1bef1f9aab04146a7d8d7603
 NeedsCompilation: no
 
 Package: LEEF.archive.default
