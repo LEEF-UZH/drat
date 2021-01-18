@@ -128,6 +128,19 @@ License: MIT + file LICENSE
 MD5sum: 1272fd3c1bef1f9aab04146a7d8d7603
 NeedsCompilation: no
 
+Package: LEEF
+Version: 0.7.2
+Depends: R (>= 3.5.0),
+Imports: LEEF.measurement.bemovi, LEEF.measurement.flowcam,
+        LEEF.measurement.flowcytometer, LEEF.measurement.manualcount,
+        LEEF.measurement.o2meter, LEEF.archive.default,
+        LEEF.backend.sqlite, testthat, yaml, drat, utils, R.utils,
+        tools
+Suggests: covr, knitr, rmarkdown, shiny, shinyFiles
+License: MIT + file LICENSE
+MD5sum: 893643713629ecc129da98ce4ec1ce45
+NeedsCompilation: no
+
 Package: LEEF.archive.default
 Version: 0.8.0
 Depends: R (>= 3.5.0)
