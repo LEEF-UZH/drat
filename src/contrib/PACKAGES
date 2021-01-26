@@ -163,19 +163,11 @@ MD5sum: d0c64c1536c20d4c440d7476ea49579d
 NeedsCompilation: no
 
 Package: LEEF.archive.default
-Version: 0.8.0
-Depends: R (>= 3.5.0)
-Imports: openssl
-License: MIT + file LICENSE
-MD5sum: 0dc52adf09c2958b8cf927266a6d36ec
-NeedsCompilation: no
-
-Package: LEEF.archive.default
 Version: 0.8.1
 Depends: R (>= 3.5.0)
 Imports: openssl
 License: MIT + file LICENSE
-MD5sum: ccd8bdb558e495d2764b7c01997ea2f8
+MD5sum: 69d64500f0c506a07c67736929f512b2
 NeedsCompilation: no
 
 Package: LEEF.backend.sqlite
