@@ -6,6 +6,19 @@ License: CC BY-NC 4.0
 MD5sum: c1a1a7a476fd8f3d17e11929fe244792
 NeedsCompilation: no
 
+Package: LEEF
+Version: 0.7.3
+Depends: R (>= 3.5.0),
+Imports: LEEF.measurement.bemovi, LEEF.measurement.flowcam,
+        LEEF.measurement.flowcytometer, LEEF.measurement.manualcount,
+        LEEF.measurement.o2meter, LEEF.archive.default,
+        LEEF.backend.sqlite, testthat, yaml, drat, utils, R.utils,
+        tools
+Suggests: covr, knitr, rmarkdown, shiny, shinyFiles
+License: MIT + file LICENSE
+MD5sum: d0c64c1536c20d4c440d7476ea49579d
+NeedsCompilation: no
+
 Package: LEEF.archive.default
 Version: 0.8.1
 Depends: R (>= 3.5.0)
@@ -25,8 +38,8 @@ NeedsCompilation: no
 Package: LEEF.measurement.bemovi
 Version: 0.8.6
 Depends: R (>= 3.5.0)
-Imports: bemovi.LEEF (>= 1.0.1), R.utils, utils, parallel, data.table, dplyr, magrittr, yaml, rlang,
-           randomForest
+Imports: bemovi.LEEF (>= 1.0.1), R.utils, utils, parallel, data.table,
+        dplyr, magrittr, yaml, rlang, randomForest
 Suggests: testthat, openssl
 License: MIT + file LICENSE
 MD5sum: ef1797edc5775f67b70459a2be2ee2c4
@@ -39,6 +52,15 @@ Imports: data.table, yaml
 Suggests: testthat, openssl
 License: MIT + file LICENSE
 MD5sum: 079e131dc84d17fa47ccaf1c7d4cbefc
+NeedsCompilation: no
+
+Package: LEEF.measurement.flowcam
+Version: 0.8.1
+Depends: R (>= 3.5.0)
+Imports: data.table, yaml, utils, dplyr, randomForest
+Suggests: testthat, openssl
+License: MIT + file LICENSE
+MD5sum: 5acc8f0235b91dd472d50b3a22186864
 NeedsCompilation: no
 
 Package: LEEF.measurement.flowcytometer
@@ -75,17 +97,6 @@ Imports: utils, yaml
 Suggests: testthat, openssl
 License: MIT + file LICENSE
 MD5sum: 1ec1350a8f96e72ec319bb99f49212b9
-NeedsCompilation: no
-
-Package: LEEF
-Version: 0.7.3
-Depends: R (>= 3.5.0),
-Imports: LEEF.measurement.bemovi, LEEF.measurement.flowcam, LEEF.measurement.flowcytometer,
-           LEEF.measurement.manualcount, LEEF.measurement.o2meter, LEEF.archive.default,
-           LEEF.backend.sqlite, testthat, yaml, drat, utils, R.utils, tools
-Suggests: covr, knitr, rmarkdown, shiny, shinyFiles
-License: MIT + file LICENSE
-MD5sum: d0c64c1536c20d4c440d7476ea49579d
 NeedsCompilation: no
 
 Package: ROriginStamp
