@@ -71,6 +71,16 @@ MD5sum: dff16d95e99ac5ee7cd2340dbc1ac7f4
 NeedsCompilation: no
 
 Package: LEEF.measurement.bemovi
+Version: 0.8.10
+Depends: R (>= 3.5.0)
+Imports: bemovi.LEEF (>= 1.0.1), R.utils, utils, parallel, data.table,
+        dplyr, magrittr, yaml, rlang, randomForest
+Suggests: testthat, openssl
+License: MIT + file LICENSE
+MD5sum: fb6d6949aa5dbcb8b55ae03825f80b63
+NeedsCompilation: no
+
+Package: LEEF.measurement.bemovi
 Version: 0.8.7
 Depends: R (>= 3.5.0)
 Imports: bemovi.LEEF (>= 1.0.1), R.utils, utils, parallel, data.table,
