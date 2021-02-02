@@ -64,6 +64,15 @@ License: MIT + file LICENSE
 MD5sum: 456952715d5363aa53e4a7ea775d4843
 NeedsCompilation: no
 
+Package: LEEF.measurement.flowcam
+Version: 0.8.3
+Depends: R (>= 3.5.0)
+Imports: data.table, yaml, utils, dplyr, magrittr, randomForest
+Suggests: testthat, openssl
+License: MIT + file LICENSE
+MD5sum: cb3638fc7b191b57b78839fa761ad2ba
+NeedsCompilation: no
+
 Package: LEEF.measurement.flowcytometer
 Version: 0.8.2
 Depends: R (>= 3.5.0)
