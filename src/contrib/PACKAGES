@@ -146,6 +146,15 @@ License: MIT + file LICENSE
 MD5sum: 49ca3b0623b074b5356576aa8df125f4
 NeedsCompilation: no
 
+Package: LEEF.measurement.manualcount
+Version: 0.9.2
+Depends: R (>= 3.5.0)
+Imports: dplyr, readxl, yaml
+Suggests: testthat, openssl
+License: MIT + file LICENSE
+MD5sum: 33d0a13c82b2d7492f70d0edb758e21e
+NeedsCompilation: no
+
 Package: LEEF.measurement.o2meter
 Version: 0.9.1
 Depends: R (>= 3.5.0)
