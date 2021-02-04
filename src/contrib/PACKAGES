@@ -134,7 +134,7 @@ Depends: R (>= 3.5.0)
 Imports: data.table, yaml, utils, dplyr, magrittr, randomForest
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: f5d0b3fc5be08ac0891b359ae604dce4
+MD5sum: 6699b123b42c32b3d8c1739927b10aeb
 NeedsCompilation: no
 
 Package: LEEF.measurement.flowcytometer
