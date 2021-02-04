@@ -6,19 +6,6 @@ License: CC BY-NC 4.0
 MD5sum: e6bb6d3ffd66d5ced4bd671ea7f12c16
 NeedsCompilation: no
 
-Package: LEEF
-Version: 0.7.3
-Depends: R (>= 3.5.0),
-Imports: LEEF.measurement.bemovi, LEEF.measurement.flowcam,
-        LEEF.measurement.flowcytometer, LEEF.measurement.manualcount,
-        LEEF.measurement.o2meter, LEEF.archive.default,
-        LEEF.backend.sqlite, testthat, yaml, drat, utils, R.utils,
-        tools
-Suggests: covr, knitr, rmarkdown, shiny, shinyFiles
-License: MIT + file LICENSE
-MD5sum: d0c64c1536c20d4c440d7476ea49579d
-NeedsCompilation: no
-
 Package: LEEF.archive.default
 Version: 0.8.1
 Depends: R (>= 3.5.0)
@@ -28,31 +15,12 @@ MD5sum: 69d64500f0c506a07c67736929f512b2
 NeedsCompilation: no
 
 Package: LEEF.backend.sqlite
-Version: 0.8.13
-Depends: R (>= 3.5.0)
-Imports: DBI, RSQLite, yaml
-Suggests: knitr, rmarkdown
-License: MIT + file LICENSE
-MD5sum: d6a28a4ef6509ba983971b19cfacea06
-NeedsCompilation: no
-
-Package: LEEF.backend.sqlite
 Version: 0.8.14
 Depends: R (>= 3.5.0)
 Imports: DBI, RSQLite, yaml
 Suggests: knitr, rmarkdown
 License: MIT + file LICENSE
 MD5sum: 5ec6ba7f97be18d3ae3e2d1e1fd4eac3
-NeedsCompilation: no
-
-Package: LEEF.measurement.bemovi
-Version: 0.8.11
-Depends: R (>= 3.5.0)
-Imports: bemovi.LEEF (>= 1.0.1), R.utils, utils, parallel, data.table,
-        dplyr, magrittr, yaml, rlang, randomForest
-Suggests: testthat, openssl
-License: MIT + file LICENSE
-MD5sum: 9f936c3cfc58d1a0586ad283deaad965
 NeedsCompilation: no
 
 Package: LEEF.measurement.bemovi
@@ -66,111 +34,12 @@ MD5sum: a1eb06394459bf22e2bee491ad54a825
 NeedsCompilation: no
 
 Package: LEEF.measurement.flowcam
-Version: 0.8.1
-Depends: R (>= 3.5.0)
-Imports: data.table, yaml, utils, dplyr, randomForest
-Suggests: testthat, openssl
-License: MIT + file LICENSE
-MD5sum: 5acc8f0235b91dd472d50b3a22186864
-NeedsCompilation: no
-
-Package: LEEF.measurement.flowcam
-Version: 0.8.2
-Depends: R (>= 3.5.0)
-Imports: data.table, yaml, utils, dplyr, magrittr, randomForest
-Suggests: testthat, openssl
-License: MIT + file LICENSE
-MD5sum: 456952715d5363aa53e4a7ea775d4843
-NeedsCompilation: no
-
-Package: LEEF.measurement.flowcam
-Version: 0.8.3
-Depends: R (>= 3.5.0)
-Imports: data.table, yaml, utils, dplyr, magrittr, randomForest
-Suggests: testthat, openssl
-License: MIT + file LICENSE
-MD5sum: cb3638fc7b191b57b78839fa761ad2ba
-NeedsCompilation: no
-
-Package: LEEF.measurement.flowcam
-Version: 0.8.4
-Depends: R (>= 3.5.0)
-Imports: data.table, yaml, utils, dplyr, magrittr, randomForest
-Suggests: testthat, openssl
-License: MIT + file LICENSE
-MD5sum: c6406210b6c88d4fb454a0748d3eb8e6
-NeedsCompilation: no
-
-Package: LEEF.measurement.flowcam
-Version: 0.8.5
-Depends: R (>= 3.5.0)
-Imports: data.table, yaml, utils, dplyr, magrittr, randomForest
-Suggests: testthat, openssl
-License: MIT + file LICENSE
-MD5sum: 8312e3a0d701db1c0db65180e3ddcc4e
-NeedsCompilation: no
-
-Package: LEEF.measurement.flowcam
-Version: 0.8.6
-Depends: R (>= 3.5.0)
-Imports: data.table, yaml, utils, dplyr, magrittr, randomForest
-Suggests: testthat, openssl
-License: MIT + file LICENSE
-MD5sum: 943c0188258d39c698b036e0d12f7740
-NeedsCompilation: no
-
-Package: LEEF.measurement.flowcam
-Version: 0.8.7
-Depends: R (>= 3.5.0)
-Imports: data.table, yaml, utils, dplyr, magrittr, randomForest
-Suggests: testthat, openssl
-License: MIT + file LICENSE
-MD5sum: 367b0d0c69b7689655301751f798f79d
-NeedsCompilation: no
-
-Package: LEEF.measurement.flowcam
-Version: 0.8.8
-Depends: R (>= 3.5.0)
-Imports: data.table, yaml, utils, dplyr, magrittr, randomForest
-Suggests: testthat, openssl
-License: MIT + file LICENSE
-MD5sum: 6699b123b42c32b3d8c1739927b10aeb
-NeedsCompilation: no
-
-Package: LEEF.measurement.flowcam
 Version: 0.8.9
 Depends: R (>= 3.5.0)
 Imports: data.table, yaml, utils, dplyr, magrittr, randomForest
 Suggests: testthat, openssl
 License: MIT + file LICENSE
 MD5sum: 09db6b4f59b33086393985c1886d7fa6
-NeedsCompilation: no
-
-Package: LEEF.measurement.flowcytometer
-Version: 0.8.2
-Depends: R (>= 3.5.0)
-Imports: R.utils, flowCore (>= 2.0), tiff, yaml
-Suggests: testthat, openssl
-License: MIT + file LICENSE
-MD5sum: bd03677c0927188ba7c2070882f43f47
-NeedsCompilation: no
-
-Package: LEEF.measurement.flowcytometer
-Version: 0.8.3
-Depends: R (>= 3.5.0)
-Imports: R.utils, flowCore (>= 2.0), tiff, yaml
-Suggests: testthat, openssl
-License: MIT + file LICENSE
-MD5sum: 0bd1880bcff63426be9e6ba616d59423
-NeedsCompilation: no
-
-Package: LEEF.measurement.flowcytometer
-Version: 0.8.4
-Depends: R (>= 3.5.0)
-Imports: R.utils, flowCore (>= 2.0), tiff, yaml
-Suggests: testthat, openssl
-License: MIT + file LICENSE
-MD5sum: ff2a6a4d418628d7b70565363e05f637
 NeedsCompilation: no
 
 Package: LEEF.measurement.flowcytometer
@@ -183,66 +52,12 @@ MD5sum: 445d278335229add626b35914539141f
 NeedsCompilation: no
 
 Package: LEEF.measurement.manualcount
-Version: 0.9.0
-Depends: R (>= 3.5.0)
-Imports: dplyr, readxl, yaml
-Suggests: testthat, openssl
-License: MIT + file LICENSE
-MD5sum: 5b604052049445a4b961c0d701c4f8d3
-NeedsCompilation: no
-
-Package: LEEF.measurement.manualcount
-Version: 0.9.1
-Depends: R (>= 3.5.0)
-Imports: dplyr, readxl, yaml
-Suggests: testthat, openssl
-License: MIT + file LICENSE
-MD5sum: 49ca3b0623b074b5356576aa8df125f4
-NeedsCompilation: no
-
-Package: LEEF.measurement.manualcount
-Version: 0.9.2
-Depends: R (>= 3.5.0)
-Imports: dplyr, readxl, yaml
-Suggests: testthat, openssl
-License: MIT + file LICENSE
-MD5sum: 33d0a13c82b2d7492f70d0edb758e21e
-NeedsCompilation: no
-
-Package: LEEF.measurement.manualcount
 Version: 0.9.3
 Depends: R (>= 3.5.0)
 Imports: dplyr, readxl, yaml
 Suggests: testthat, openssl
 License: MIT + file LICENSE
 MD5sum: 472e94ec68735a356c4d4b8e32f80155
-NeedsCompilation: no
-
-Package: LEEF.measurement.o2meter
-Version: 0.9.1
-Depends: R (>= 3.5.0)
-Imports: utils, yaml
-Suggests: testthat, openssl
-License: MIT + file LICENSE
-MD5sum: 34fed83f5cb6311b6a053190e537bfe9
-NeedsCompilation: no
-
-Package: LEEF.measurement.o2meter
-Version: 0.9.2
-Depends: R (>= 3.5.0)
-Imports: utils, yaml
-Suggests: testthat, openssl
-License: MIT + file LICENSE
-MD5sum: f6cfed13ca1dfe3a16bc7c70a2cd5042
-NeedsCompilation: no
-
-Package: LEEF.measurement.o2meter
-Version: 0.9.3
-Depends: R (>= 3.5.0)
-Imports: utils, yaml
-Suggests: testthat, openssl
-License: MIT + file LICENSE
-MD5sum: de464bc32697364a05493dc0e294829c
 NeedsCompilation: no
 
 Package: LEEF.measurement.o2meter
@@ -261,6 +76,19 @@ Imports: utils, yaml
 Suggests: testthat, openssl
 License: MIT + file LICENSE
 MD5sum: a3283b90089f4f2df3330fe00e218a40
+NeedsCompilation: no
+
+Package: LEEF
+Version: 0.7.3
+Depends: R (>= 3.5.0),
+Imports: LEEF.measurement.bemovi, LEEF.measurement.flowcam,
+        LEEF.measurement.flowcytometer, LEEF.measurement.manualcount,
+        LEEF.measurement.o2meter, LEEF.archive.default,
+        LEEF.backend.sqlite, testthat, yaml, drat, utils, R.utils,
+        tools
+Suggests: covr, knitr, rmarkdown, shiny, shinyFiles
+License: MIT + file LICENSE
+MD5sum: d0c64c1536c20d4c440d7476ea49579d
 NeedsCompilation: no
 
 Package: ROriginStamp
