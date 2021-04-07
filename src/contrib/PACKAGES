@@ -11,7 +11,7 @@ Version: 1.0.26
 Depends: R (>= 3.0.2)
 Imports: data.table, circular, settings, yaml
 License: CC BY-NC 4.0
-MD5sum: 772730f44bb7bda7fe16966d0b20d1e0
+MD5sum: 324f372be1d873c35171a1b90d07e2a8
 NeedsCompilation: no
 
 Package: LEEF
