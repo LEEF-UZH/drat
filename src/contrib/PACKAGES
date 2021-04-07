@@ -183,6 +183,16 @@ License: MIT + file LICENSE
 MD5sum: 470943ae236fd5f674300967414f2f0d
 NeedsCompilation: no
 
+Package: LEEF.measurement.bemovi
+Version: 0.8.15
+Depends: R (>= 3.5.0)
+Imports: bemovi.LEEF (>= 1.0.1), R.utils, utils, parallel, data.table,
+        dplyr, magrittr, yaml, rlang, randomForest
+Suggests: testthat, openssl
+License: MIT + file LICENSE
+MD5sum: d30026685693964935e97727d319ee4e
+NeedsCompilation: no
+
 Package: LEEF.measurement.flowcam
 Version: 0.8.10
 Depends: R (>= 3.5.0)
