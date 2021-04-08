@@ -235,7 +235,7 @@ Depends: R (>= 3.5.0)
 Imports: data.table, yaml, utils, dplyr, magrittr, randomForest
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 37c7a3dd9756ea0c421b72132427a3b4
+MD5sum: aa0fa7b6b83a72f952fa18d649bd24e8
 NeedsCompilation: no
 
 Package: LEEF.measurement.flowcam
