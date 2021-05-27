@@ -232,10 +232,11 @@ NeedsCompilation: no
 Package: LEEF.measurement.flowcam
 Version: 0.8.12
 Depends: R (>= 3.5.0)
-Imports: data.table, yaml, utils, dplyr, magrittr, randomForest
+Imports: data.table, yaml, utils, plyr, dplyr, magrittr, randomForest,
+        tidyselect, stats
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: aa0fa7b6b83a72f952fa18d649bd24e8
+MD5sum: f2484a8121749bb6f5f2d65c26915f7b
 NeedsCompilation: no
 
 Package: LEEF.measurement.flowcam
