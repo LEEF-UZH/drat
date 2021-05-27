@@ -138,9 +138,9 @@ NeedsCompilation: no
 Package: LEEF.archive.default
 Version: 0.8.5
 Depends: R (>= 3.5.0)
-Imports: openssl
+Imports: openssl, yaml
 License: MIT + file LICENSE
-MD5sum: 4d63fb31639a50ae063e9b49bb3e5324
+MD5sum: 510cdfab416bb54f9049e2fd564c499f
 NeedsCompilation: no
 
 Package: LEEF.backend.sqlite
