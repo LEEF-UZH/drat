@@ -284,6 +284,15 @@ License: MIT + file LICENSE
 MD5sum: 9a75c925251586dd173d78130e75e3b6
 NeedsCompilation: no
 
+Package: LEEF.measurement.toc
+Version: 0.8.5
+Depends: R (>= 3.5.0)
+Imports: utils, yaml
+Suggests: testthat, openssl
+License: MIT + file LICENSE
+MD5sum: f4547e33093ff5354e4e4853c6a2124d
+NeedsCompilation: no
+
 Package: ROriginStamp
 Version: 0.6.1
 Imports: httr, jsonlite, yaml, settings
