@@ -65,6 +65,15 @@ License: CC BY-NC 4.0
 MD5sum: 6b2d1bf2133aedcc1f0150a104126a8a
 NeedsCompilation: no
 
+Package: bemovi.LEEF
+Version: 1.0.33
+Depends: R (>= 3.0.2)
+Imports: data.table, circular, settings, yaml, grDevices, graphics,
+        parallel
+License: CC BY-NC 4.0
+MD5sum: 24c31a14d79daf01649fadbd78b626d8
+NeedsCompilation: no
+
 Package: LEEF
 Version: 0.7.3
 Depends: R (>= 3.5.0),
