@@ -241,10 +241,10 @@ Package: LEEF.measurement.bemovi
 Version: 0.8.16
 Depends: R (>= 3.5.0)
 Imports: bemovi.LEEF (>= 1.0.1), R.utils, utils, parallel, data.table,
-        dplyr, magrittr, yaml, rlang, randomForest
+        dplyr, tidyselect, magrittr, yaml, rlang, e1071, loggit
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 5eb2c8b71ebed1d8b19f012c0e6ac255
+MD5sum: ee521dc8195d28c328f7f4faa20dd35f
 NeedsCompilation: no
 
 Package: LEEF.measurement.flowcam
