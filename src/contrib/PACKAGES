@@ -253,7 +253,7 @@ Imports: bemovi.LEEF (>= 1.0.1), R.utils, utils, parallel, data.table,
         dplyr, tidyselect, magrittr, yaml, rlang, e1071, loggit
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: c8bd841bc16eb9b7ea8d31128ab5ae8b
+MD5sum: ffabf4ebffb7cf4c1c4a3cdd69cec655
 NeedsCompilation: no
 
 Package: LEEF.measurement.flowcam
