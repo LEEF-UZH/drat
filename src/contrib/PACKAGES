@@ -116,7 +116,7 @@ Depends: R (>= 3.0.2)
 Imports: data.table, circular, settings, yaml, grDevices, graphics,
         parallel
 License: CC BY-NC 4.0
-MD5sum: 41e1655ec7024e4e4729ac4023e3e3c9
+MD5sum: 0cb0be9b1a09e6c3bb6769d561611439
 NeedsCompilation: no
 
 Package: LEEF
