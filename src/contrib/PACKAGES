@@ -391,6 +391,16 @@ MD5sum: 7bb5ff70191a021add5040c336621f01
 NeedsCompilation: no
 
 Package: LEEF.measurement.flowcam
+Version: 0.8.13
+Depends: R (>= 3.5.0)
+Imports: data.table, yaml, utils, plyr, dplyr, magrittr, e1071,
+        tidyselect, stats, loggit
+Suggests: testthat, openssl
+License: MIT + file LICENSE
+MD5sum: 8113c79cbe51b3241af98208e199f74d
+NeedsCompilation: no
+
+Package: LEEF.measurement.flowcam
 Version: 0.8.9
 Depends: R (>= 3.5.0)
 Imports: data.table, yaml, utils, dplyr, magrittr, randomForest
