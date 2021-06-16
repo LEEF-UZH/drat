@@ -283,7 +283,7 @@ Version: 0.8.6
 Depends: R (>= 3.5.0)
 Imports: openssl, yaml
 License: MIT + file LICENSE
-MD5sum: afe6e305b55325cabbb3ebd6563197b2
+MD5sum: bba83da1293ff458bb096570f2618a62
 NeedsCompilation: no
 
 Package: LEEF.backend.sqlite
