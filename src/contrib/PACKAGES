@@ -170,7 +170,7 @@ Depends: R (>= 3.0.2)
 Imports: data.table, circular, settings, yaml, grDevices, graphics,
         parallel, loggit
 License: CC BY-NC 4.0
-MD5sum: 87e0e59c5d45c55c44165f75f3dc7fff
+MD5sum: faa9592f88cf157d8b48b14b1ed6acf3
 NeedsCompilation: no
 
 Package: LEEF
