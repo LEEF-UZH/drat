@@ -342,7 +342,7 @@ Depends: R (>= 3.5.0)
 Imports: DBI, RSQLite, yaml
 Suggests: knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: ad0d8d8937c3ac1f69a4728f10f54ace
+MD5sum: 7ff9dcba7b9fcbc418080aa352cd6178
 NeedsCompilation: no
 
 Package: LEEF.measurement.bemovi
