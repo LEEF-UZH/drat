@@ -345,6 +345,15 @@ License: MIT + file LICENSE
 MD5sum: 7ff9dcba7b9fcbc418080aa352cd6178
 NeedsCompilation: no
 
+Package: LEEF.backend.sqlite
+Version: 0.8.17
+Depends: R (>= 3.5.0)
+Imports: DBI, RSQLite, yaml
+Suggests: knitr, rmarkdown
+License: MIT + file LICENSE
+MD5sum: abc3b092d186608e1f93a727e4a4c1cc
+NeedsCompilation: no
+
 Package: LEEF.measurement.bemovi
 Version: 0.8.12
 Depends: R (>= 3.5.0)
