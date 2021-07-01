@@ -637,10 +637,10 @@ NeedsCompilation: no
 Package: LEEF.measurement.o2meter
 Version: 0.9.4
 Depends: R (>= 3.5.0)
-Imports: utils, yaml
+Imports: utils, yaml, loggit
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 3263d14e52bc4a2dd86ae338f4400bd5
+MD5sum: 7b7f0ebca44bdcf31004d32e03da086b
 NeedsCompilation: no
 
 Package: LEEF.measurement.toc
