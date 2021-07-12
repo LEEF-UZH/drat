@@ -257,9 +257,9 @@ NeedsCompilation: no
 Package: LEEF.analysis
 Version: 0.1.2
 Depends: R (>= 3.5.0)
-Imports: DBI, RSQLite, yaml, parallel, ggplot2
+Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown
 License: MIT + file LICENSE
-MD5sum: d80581dddcce0a1524c386b3351a5fe0
+MD5sum: d97e09709e46d7cd0117266b9b2d7d92
 NeedsCompilation: no
 
 Package: LEEF.archive.default
