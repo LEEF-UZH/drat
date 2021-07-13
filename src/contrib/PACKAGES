@@ -283,7 +283,7 @@ Version: 0.1.5
 Depends: R (>= 3.5.0)
 Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils
 License: MIT + file LICENSE
-MD5sum: 7a4652154efefea25182ece1cedef45b
+MD5sum: 427da7750543e9dc2eb52f58cd297ba3
 NeedsCompilation: no
 
 Package: LEEF.archive.default
