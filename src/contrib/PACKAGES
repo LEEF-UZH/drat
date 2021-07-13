@@ -319,6 +319,14 @@ MD5sum: 0a6ab5a97ea481a73eb9a0448b610ede
 NeedsCompilation: no
 
 Package: LEEF.archive.default
+Version: 0.8.15
+Depends: R (>= 3.5.0)
+Imports: openssl, yaml
+License: MIT + file LICENSE
+MD5sum: fdf8150d56ccc4cd03fbd34f064e72e3
+NeedsCompilation: no
+
+Package: LEEF.archive.default
 Version: 0.8.2
 Depends: R (>= 3.5.0)
 Imports: openssl
