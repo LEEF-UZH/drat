@@ -778,7 +778,7 @@ Imports: data.table, yaml, utils, plyr, dplyr, magrittr, e1071,
         tidyselect, stats, loggit
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 63ee186929d2b001de4beb58aab920d6
+MD5sum: c5bf2e0e07a94dbdb749656ae8dbd5dd
 NeedsCompilation: no
 
 Package: LEEF.measurement.flowcam
