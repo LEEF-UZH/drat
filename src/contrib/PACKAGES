@@ -308,7 +308,7 @@ Depends: R (>= 3.5.0)
 Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
         dbplyr, dplyr
 License: MIT + file LICENSE
-MD5sum: f3bb8869b0e1425e7d1e5817d00cf4fb
+MD5sum: ef72dd58247f48eb6965c0e8407093a5
 NeedsCompilation: no
 
 Package: LEEF.archive.default
