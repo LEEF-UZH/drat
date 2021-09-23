@@ -269,7 +269,7 @@ Depends: R (>= 3.5.0)
 Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
         dbplyr, dplyr
 License: MIT + file LICENSE
-MD5sum: 7fa0fad85d10428f8d4c563e0d3bf3f1
+MD5sum: a378468edfab6f16cc186baaf4ebe813
 NeedsCompilation: no
 
 Package: LEEF.analysis
@@ -383,6 +383,14 @@ Depends: R (>= 3.5.0)
 Imports: openssl, yaml
 License: MIT + file LICENSE
 MD5sum: fdf8150d56ccc4cd03fbd34f064e72e3
+NeedsCompilation: no
+
+Package: LEEF.archive.default
+Version: 0.8.16
+Depends: R (>= 3.5.0)
+Imports: openssl, yaml
+License: MIT + file LICENSE
+MD5sum: 90d0fdf8c6b03431cff7028495eaef46
 NeedsCompilation: no
 
 Package: LEEF.archive.default
@@ -992,6 +1000,15 @@ Imports: utils, yaml, loggit
 Suggests: testthat, openssl
 License: MIT + file LICENSE
 MD5sum: 28ada9dfecb11ece3a2050f178108271
+NeedsCompilation: no
+
+Package: LEEF.measurement.o2meter
+Version: 0.9.9
+Depends: R (>= 3.5.0)
+Imports: utils, yaml, loggit
+Suggests: testthat, openssl
+License: MIT + file LICENSE
+MD5sum: 51ca05894a8351b8dd0c26fb807fd6e1
 NeedsCompilation: no
 
 Package: LEEF.measurement.toc
