@@ -976,6 +976,15 @@ MD5sum: 768d21319d18d82f6cc52c968e76ca8a
 NeedsCompilation: no
 
 Package: LEEF.measurement.o2meter
+Version: 0.9.11
+Depends: R (>= 3.5.0)
+Imports: utils, yaml, loggit
+Suggests: testthat, openssl
+License: MIT + file LICENSE
+MD5sum: 1ba028d67f28bf225b09ee85187d670f
+NeedsCompilation: no
+
+Package: LEEF.measurement.o2meter
 Version: 0.9.4
 Depends: R (>= 3.5.0)
 Imports: utils, yaml, loggit
