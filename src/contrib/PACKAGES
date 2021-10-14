@@ -305,7 +305,7 @@ Depends: R (>= 3.5.0)
 Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
         dbplyr, dplyr
 License: MIT + file LICENSE
-MD5sum: 5cdc5876c51a3bd192e4b628d99bf1aa
+MD5sum: 5157c0aa222df87218ae4a9e45fbc52f
 NeedsCompilation: no
 
 Package: LEEF.analysis
