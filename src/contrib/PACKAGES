@@ -100,7 +100,7 @@ Depends: R (>= 3.5.0)
 Imports: utils, yaml, loggit
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 00f97bc0e2fc84895499701e57070b3a
+MD5sum: c7481fef69fd47d43ee9ce19c25e90dc
 NeedsCompilation: no
 
 Package: LEEF.measurement.toc
