@@ -17,7 +17,7 @@ Imports: LEEF.measurement.bemovi, LEEF.measurement.flowcam,
         tools
 Suggests: covr, knitr, rmarkdown, shiny, shinyFiles
 License: MIT + file LICENSE
-MD5sum: f7ede32959f44b6b24c87872da7177c3
+MD5sum: ef726b72b559e2b4e06592ab57358b98
 NeedsCompilation: no
 
 Package: LEEF.analysis
@@ -110,12 +110,4 @@ Imports: utils, yaml
 Suggests: testthat, openssl
 License: MIT + file LICENSE
 MD5sum: af417810fbb58d4ff0d04b88103cd18c
-NeedsCompilation: no
-
-Package: ROriginStamp
-Version: 0.6.1
-Imports: httr, jsonlite, yaml, settings
-Suggests: testthat, covr
-License: GPL-3 + file LICENSE
-MD5sum: 2d4dc2a1a998a5770f350e00c928ff41
 NeedsCompilation: no
