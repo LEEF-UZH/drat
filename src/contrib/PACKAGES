@@ -63,7 +63,7 @@ Imports: data.table, yaml, utils, plyr, dplyr, purrr, magrittr, e1071,
         tidyselect, stats, loggit
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 8cee2bf55934f227f08e9d5df55e00b4
+MD5sum: e630bd5957806fc4fe9838710a70e94d
 NeedsCompilation: no
 
 Package: LEEF.measurement.flowcytometer
