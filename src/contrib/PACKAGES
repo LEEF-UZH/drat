@@ -126,10 +126,10 @@ Package: LEEF.measurement.flowcam
 Version: 0.8.25
 Depends: R (>= 3.5.0)
 Imports: data.table, yaml, utils, plyr, dplyr, purrr, magrittr, e1071,
-        tidyselect, stats, loggit, randomForest
+        tidyselect, stats, loggit
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 4e4eae13488dfb0f1d1274124abcea2c
+MD5sum: f6b2079d100d90d1dd4052cc191df833
 NeedsCompilation: no
 
 Package: LEEF.measurement.flowcam
@@ -139,7 +139,7 @@ Imports: data.table, yaml, utils, plyr, dplyr, purrr, magrittr, e1071,
         tidyselect, stats, loggit, randomForest
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: a8d03e97b227a9aa283a07c3f2b72c1b
+MD5sum: 954b83c981c90b0cc9394b5cf56cf246
 NeedsCompilation: no
 
 Package: LEEF.measurement.flowcytometer
