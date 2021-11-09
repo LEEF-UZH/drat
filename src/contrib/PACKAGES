@@ -1,7 +1,8 @@
 Package: bemovi.LEEF
 Version: 1.0.44
 Depends: R (>= 3.0.2)
-Imports: data.table, circular, settings, yaml, grDevices, graphics, parallel, loggit
+Imports: data.table, circular, settings, yaml, grDevices, graphics,
+        parallel, loggit
 License: CC BY-NC 4.0
 MD5sum: faa9592f88cf157d8b48b14b1ed6acf3
 NeedsCompilation: no
@@ -9,16 +10,20 @@ NeedsCompilation: no
 Package: bemovi.LEEF
 Version: 1.0.47
 Depends: R (>= 3.0.2)
-Imports: data.table, circular, settings, yaml, grDevices, graphics, parallel, loggit
+Imports: data.table, circular, settings, yaml, grDevices, graphics,
+        parallel, loggit
 License: CC BY-NC 4.0
-MD5sum: ac5418f7fc7ae20d15822cfc71590546
+MD5sum: 11ec1e9e6a4fd77f22693cbe17b1e187
 NeedsCompilation: no
 
 Package: LEEF
 Version: 0.9.1
 Depends: R (>= 3.5.0),
-Imports: LEEF.measurement.bemovi, LEEF.measurement.flowcam, LEEF.measurement.flowcytometer, LEEF.measurement.manualcount,
-              LEEF.measurement.o2meter, LEEF.archive.default, LEEF.backend.sqlite, testthat, yaml, drat, utils, R.utils, tools
+Imports: LEEF.measurement.bemovi, LEEF.measurement.flowcam,
+        LEEF.measurement.flowcytometer, LEEF.measurement.manualcount,
+        LEEF.measurement.o2meter, LEEF.archive.default,
+        LEEF.backend.sqlite, testthat, yaml, drat, utils, R.utils,
+        tools
 Suggests: covr, knitr, rmarkdown, shiny, shinyFiles
 License: MIT + file LICENSE
 MD5sum: ef726b72b559e2b4e06592ab57358b98
@@ -27,7 +32,8 @@ NeedsCompilation: no
 Package: LEEF.analysis
 Version: 0.1.23
 Depends: R (>= 3.5.0)
-Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils, dbplyr, dplyr
+Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
+        dbplyr, dplyr
 License: MIT + file LICENSE
 MD5sum: d93fa4423c7ba2db5d507e81efb66b2c
 NeedsCompilation: no
@@ -35,7 +41,8 @@ NeedsCompilation: no
 Package: LEEF.analysis
 Version: 0.1.25
 Depends: R (>= 3.5.0)
-Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils, dbplyr, dplyr
+Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
+        dbplyr, dplyr
 License: MIT + file LICENSE
 MD5sum: 053346279fd5a51888b992de27253ef0
 NeedsCompilation: no
@@ -43,7 +50,8 @@ NeedsCompilation: no
 Package: LEEF.analysis
 Version: 0.1.26
 Depends: R (>= 3.5.0)
-Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils, dbplyr, dplyr
+Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
+        dbplyr, dplyr
 License: MIT + file LICENSE
 MD5sum: e28e2f7f23343505b6d3325ab1e3ee44
 NeedsCompilation: no
@@ -51,7 +59,8 @@ NeedsCompilation: no
 Package: LEEF.analysis
 Version: 0.1.27
 Depends: R (>= 3.5.0)
-Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils, dbplyr, dplyr
+Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
+        dbplyr, dplyr
 License: MIT + file LICENSE
 MD5sum: f66574b370b2d195e8166b94026097cb
 NeedsCompilation: no
@@ -59,7 +68,8 @@ NeedsCompilation: no
 Package: LEEF.analysis
 Version: 0.1.28
 Depends: R (>= 3.5.0)
-Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils, dbplyr, dplyr
+Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
+        dbplyr, dplyr
 Suggests: knitr
 License: MIT + file LICENSE
 MD5sum: 45f8247142524beaa11d1556064f8e40
@@ -85,8 +95,8 @@ NeedsCompilation: no
 Package: LEEF.measurement.bemovi
 Version: 0.8.31
 Depends: R (>= 3.5.0)
-Imports: bemovi.LEEF (>= 1.0.1), R.utils, utils, parallel, data.table, dplyr, purrr, tidyselect, magrittr, yaml, rlang, e1071,
-              loggit
+Imports: bemovi.LEEF (>= 1.0.1), R.utils, utils, parallel, data.table,
+        dplyr, purrr, tidyselect, magrittr, yaml, rlang, e1071, loggit
 Suggests: testthat, openssl
 License: MIT + file LICENSE
 MD5sum: 723a25b509b31e88612d45bf97681682
@@ -95,7 +105,8 @@ NeedsCompilation: no
 Package: LEEF.measurement.flowcam
 Version: 0.8.24
 Depends: R (>= 3.5.0)
-Imports: data.table, yaml, utils, plyr, dplyr, purrr, magrittr, e1071, tidyselect, stats, loggit
+Imports: data.table, yaml, utils, plyr, dplyr, purrr, magrittr, e1071,
+        tidyselect, stats, loggit
 Suggests: testthat, openssl
 License: MIT + file LICENSE
 MD5sum: e630bd5957806fc4fe9838710a70e94d
@@ -104,7 +115,8 @@ NeedsCompilation: no
 Package: LEEF.measurement.flowcam
 Version: 0.8.25
 Depends: R (>= 3.5.0)
-Imports: data.table, yaml, utils, plyr, dplyr, purrr, magrittr, e1071, tidyselect, stats, loggit
+Imports: data.table, yaml, utils, plyr, dplyr, purrr, magrittr, e1071,
+        tidyselect, stats, loggit
 Suggests: testthat, openssl
 License: MIT + file LICENSE
 MD5sum: f6b2079d100d90d1dd4052cc191df833
@@ -113,7 +125,8 @@ NeedsCompilation: no
 Package: LEEF.measurement.flowcytometer
 Version: 0.8.11
 Depends: R (>= 3.5.0)
-Imports: R.utils, flowCore (>= 2.0), tiff, yaml, plyr, tidyr, loggit, magrittr
+Imports: R.utils, flowCore (>= 2.0), tiff, yaml, plyr, tidyr, loggit,
+        magrittr
 Suggests: testthat, openssl
 License: MIT + file LICENSE
 MD5sum: 4b94a78d101f902ed51c107c20552128
@@ -122,7 +135,8 @@ NeedsCompilation: no
 Package: LEEF.measurement.flowcytometer
 Version: 0.8.12
 Depends: R (>= 3.5.0)
-Imports: R.utils, flowCore (>= 2.0), tiff, yaml, plyr, tidyr, loggit, magrittr
+Imports: R.utils, flowCore (>= 2.0), tiff, yaml, plyr, tidyr, loggit,
+        magrittr
 Suggests: testthat, openssl
 License: MIT + file LICENSE
 MD5sum: 30ccbe553cd3f0f4e10a25fee490b5e9
