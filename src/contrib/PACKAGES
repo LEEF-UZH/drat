@@ -82,7 +82,7 @@ Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
         dbplyr, dplyr
 Suggests: knitr
 License: MIT + file LICENSE
-MD5sum: 58548edf7f1478946cdff66471a1a680
+MD5sum: bfb8d8cecdfbe00f6008222dac71fd92
 NeedsCompilation: no
 
 Package: LEEF.archive.default
