@@ -144,6 +144,16 @@ License: MIT + file LICENSE
 MD5sum: 041dc5c45ed27acb2d0cbd0d9c629ed9
 NeedsCompilation: no
 
+Package: LEEF.analysis
+Version: 0.1.36
+Depends: R (>= 3.5.0)
+Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
+        dbplyr, dplyr
+Suggests: knitr
+License: MIT + file LICENSE
+MD5sum: 3d6787b1f4d5ad9f9f53d02d8a4b1d29
+NeedsCompilation: no
+
 Package: LEEF.archive.default
 Version: 0.8.16
 Depends: R (>= 3.5.0)
