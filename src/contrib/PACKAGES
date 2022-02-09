@@ -357,10 +357,10 @@ Package: LEEF.analysis
 Version: 0.1.59
 Depends: R (>= 3.5.0)
 Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
-        dbplyr, dplyr
+        dbplyr, dplyr, magrittr, rlang, tibble
 Suggests: knitr
 License: MIT + file LICENSE
-MD5sum: a35a3a3b877e6ebfcd7414869eb1b7d2
+MD5sum: 538d7548715ee0ab97f88c5148246a83
 NeedsCompilation: no
 
 Package: LEEF.archive.default
