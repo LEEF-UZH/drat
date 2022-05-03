@@ -74,7 +74,7 @@ Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
         dbplyr, dplyr, magrittr, rlang, tibble
 Suggests: knitr
 License: MIT + file LICENSE
-MD5sum: 6aa33254fc1e130c9f9053fdf75d824b
+MD5sum: d11e243be68e48090b0bd198b9c2ed4b
 NeedsCompilation: no
 
 Package: LEEF.analysis
