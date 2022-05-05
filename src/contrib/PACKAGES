@@ -64,7 +64,17 @@ Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
         dbplyr, dplyr, magrittr, rlang, tibble
 Suggests: knitr
 License: MIT + file LICENSE
-MD5sum: ca1223d8ec4f3667306db2dc888d347c
+MD5sum: 3066a82a7192f1b4fe77eb1ae467125f
+NeedsCompilation: no
+
+Package: LEEF.analysis
+Version: 0.1.13
+Depends: R (>= 3.5.0)
+Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
+        dbplyr, dplyr, magrittr, rlang, tibble
+Suggests: knitr
+License: MIT + file LICENSE
+MD5sum: dad1323d26d061df2877dbc13f6ed160
 NeedsCompilation: no
 
 Package: LEEF.analysis
@@ -622,6 +632,16 @@ Imports: R.utils, flowCore (>= 2.0), tiff, yaml, plyr, tidyr, loggit,
 Suggests: testthat, openssl
 License: MIT + file LICENSE
 MD5sum: 30ccbe553cd3f0f4e10a25fee490b5e9
+NeedsCompilation: no
+
+Package: LEEF.measurement.flowcytometer
+Version: 0.8.13
+Depends: R (>= 3.5.0)
+Imports: R.utils, flowCore (>= 2.0), tiff, yaml, plyr, tidyr, loggit,
+        magrittr
+Suggests: testthat, openssl
+License: MIT + file LICENSE
+MD5sum: e1caa0caa9c45cb76b6ba42c5cd6e802
 NeedsCompilation: no
 
 Package: LEEF.measurement.incubatortemp
