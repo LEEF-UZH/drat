@@ -127,16 +127,6 @@ MD5sum: 382ddfdafcc9e0d710f7a2ec0bfe013c
 NeedsCompilation: no
 
 Package: LEEF.analysis
-Version: 0.1.15
-Depends: R (>= 3.5.0)
-Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
-        dbplyr, dplyr, magrittr, rlang, tibble
-Suggests: knitr
-License: MIT + file LICENSE
-MD5sum: 88f03798f49a0b2bc822149c6846d022
-NeedsCompilation: no
-
-Package: LEEF.analysis
 Version: 0.1.23
 Depends: R (>= 3.5.0)
 Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
@@ -560,7 +550,7 @@ Depends: R (>= 3.5.0)
 Imports: DBI, RSQLite, yaml
 Suggests: knitr, rmarkdown
 License: MIT + file LICENSE
-MD5sum: c0d76e797fad1b5a2c09d509e8268d53
+MD5sum: 3c6a3cfbeea62c81210c3998bb1bc23b
 NeedsCompilation: no
 
 Package: LEEF.measurement.bemovi
