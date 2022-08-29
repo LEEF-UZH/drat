@@ -34,6 +34,15 @@ License: CC BY-NC 4.0
 MD5sum: 8ffce93db4148a1f17d615098208c5e6
 NeedsCompilation: no
 
+Package: bemovi.LEEF
+Version: 1.0.50
+Depends: R (>= 3.0.2)
+Imports: data.table, circular, settings, yaml, grDevices, graphics,
+        parallel, loggit
+License: CC BY-NC 4.0
+MD5sum: 64ef0c6976f59d2d8abc34933da385df
+NeedsCompilation: no
+
 Package: LEEF
 Version: 0.9.1
 Depends: R (>= 3.5.0),
@@ -115,16 +124,6 @@ Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
 Suggests: knitr
 License: MIT + file LICENSE
 MD5sum: 382ddfdafcc9e0d710f7a2ec0bfe013c
-NeedsCompilation: no
-
-Package: LEEF.analysis
-Version: 0.1.15
-Depends: R (>= 3.5.0)
-Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
-        dbplyr, dplyr, magrittr, rlang, tibble
-Suggests: knitr
-License: MIT + file LICENSE
-MD5sum: 88f03798f49a0b2bc822149c6846d022
 NeedsCompilation: no
 
 Package: LEEF.analysis
