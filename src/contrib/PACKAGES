@@ -493,12 +493,12 @@ NeedsCompilation: no
 
 Package: LEEF.analysis
 Version: 0.2.0
-Depends: R (>= 3.5.0)
+Depends: R (>= 4.1.0)
 Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
         dbplyr, dplyr, magrittr, rlang, tibble
 Suggests: knitr
 License: MIT + file LICENSE
-MD5sum: 8555cb5666e5b8335dd2aa1564c8f957
+MD5sum: 58d0c9bb08b0a328def2b807949a6015
 NeedsCompilation: no
 
 Package: LEEF.archive.default
