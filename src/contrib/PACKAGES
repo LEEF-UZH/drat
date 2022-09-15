@@ -508,16 +508,6 @@ Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
         dbplyr, dplyr, magrittr, rlang, tibble
 Suggests: knitr
 License: MIT + file LICENSE
-MD5sum: 18344d529a2f85d3c16a6a821281dcb7
-NeedsCompilation: no
-
-Package: LEEF.analysis
-Version: 0.3.0
-Depends: R (>= 4.1.0)
-Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
-        dbplyr, dplyr, magrittr, rlang, tibble
-Suggests: knitr
-License: MIT + file LICENSE
 MD5sum: ee0a802fa4ba9e932bfaa1709616b934
 NeedsCompilation: no
 
@@ -528,7 +518,7 @@ Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
         dbplyr, dplyr, magrittr, rlang, tibble, pbapply, pbmcapply
 Suggests: knitr
 License: MIT + file LICENSE
-MD5sum: bd51602d013f0c01e5ace4f4fe4caa5d
+MD5sum: b1db370d123e1804f5a77043fb960b1d
 NeedsCompilation: no
 
 Package: LEEF.archive.default
@@ -609,15 +599,6 @@ Imports: DBI, RSQLite, yaml
 Suggests: knitr, rmarkdown
 License: MIT + file LICENSE
 MD5sum: 2010fce4f6d80cb298d676ab914b79cf
-NeedsCompilation: no
-
-Package: LEEF.backend.sqlite
-Version: 0.8.30
-Depends: R (>= 3.5.0)
-Imports: DBI, RSQLite, yaml
-Suggests: knitr, rmarkdown
-License: MIT + file LICENSE
-MD5sum: 8fc204a35f1e07a8b18885856cb0a312
 NeedsCompilation: no
 
 Package: LEEF.backend.sqlite
