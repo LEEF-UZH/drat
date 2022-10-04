@@ -548,7 +548,7 @@ Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
         dbplyr, dplyr, magrittr, rlang, tibble, pbapply, pbmcapply
 Suggests: knitr
 License: MIT + file LICENSE
-MD5sum: 7ee39fdcd818f9c80f7b61ca459dbb25
+MD5sum: b1b044fe6c2fc962457ba71812b35e9a
 NeedsCompilation: no
 
 Package: LEEF.archive.default
