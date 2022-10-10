@@ -90,7 +90,7 @@ Imports: data.table, yaml, utils, plyr, dplyr, purrr, magrittr, e1071,
         tidyselect, stats, loggit, randomForest
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: f6b99e73259bd5ac3491cf1c7e01c2e4
+MD5sum: d56bd6e76c4ffd3899f23181e2117c79
 NeedsCompilation: no
 
 Package: LEEF.analysis
