@@ -83,6 +83,16 @@ License: MIT + file LICENSE
 MD5sum: ef726b72b559e2b4e06592ab57358b98
 NeedsCompilation: no
 
+Package: LEEF.2.measurement.flowcam
+Version: 0.9.0
+Depends: R (>= 3.5.0)
+Imports: data.table, yaml, utils, plyr, dplyr, purrr, magrittr, e1071,
+        tidyselect, stats, loggit, randomForest
+Suggests: testthat, openssl
+License: MIT + file LICENSE
+MD5sum: f6b99e73259bd5ac3491cf1c7e01c2e4
+NeedsCompilation: no
+
 Package: LEEF.analysis
 Version: 0.1.10
 Depends: R (>= 3.5.0)
@@ -557,6 +567,16 @@ Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
 Suggests: knitr
 License: MIT + file LICENSE
 MD5sum: 5bfec36d1da5dab14d224696e78b0736
+NeedsCompilation: no
+
+Package: LEEF.analysis
+Version: 0.3.4
+Depends: R (>= 4.1.0)
+Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
+        dbplyr, dplyr, magrittr, rlang, tibble, pbapply, pbmcapply
+Suggests: knitr
+License: MIT + file LICENSE
+MD5sum: 6737ec80b8837995c602a5cda3e35a48
 NeedsCompilation: no
 
 Package: LEEF.analysis
