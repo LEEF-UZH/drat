@@ -802,6 +802,15 @@ License: MIT + file LICENSE
 MD5sum: 90cff46549143b547ee3a4a7f420276a
 NeedsCompilation: no
 
+Package: LEEF.measurement.conductivity
+Version: 0.9.0
+Depends: R (>= 3.5.0)
+Imports: dplyr, readxl, yaml, loggit
+Suggests: testthat, openssl
+License: MIT + file LICENSE
+MD5sum: c556fe3ac63ef7a0d99773ca325a01c5
+NeedsCompilation: no
+
 Package: LEEF.measurement.flowcam
 Version: 0.8.24
 Depends: R (>= 3.5.0)
