@@ -817,7 +817,7 @@ Depends: R (>= 3.5.0)
 Imports: dplyr, readxl, yaml, loggit
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: c556fe3ac63ef7a0d99773ca325a01c5
+MD5sum: a40b755bff6eab4a310ad2ac68c8be21
 NeedsCompilation: no
 
 Package: LEEF.measurement.flowcam
