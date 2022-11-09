@@ -147,14 +147,14 @@ NeedsCompilation: no
 Package: LEEF.2
 Version: 0.9.7
 Depends: R (>= 3.5.0),
-Imports: LEEF.2.measurement.bemovi, LEEF.2.measurement.flowcam,
-        LEEF.2.measurement.flowcytometer,
+Imports: LEEF.2.measurement.conductivity, LEEF.2.measurement.bemovi,
+        LEEF.2.measurement.flowcam, LEEF.2.measurement.flowcytometer,
         LEEF.2.measurement.manualcount, LEEF.2.measurement.o2meter,
         LEEF.2.archive.default, LEEF.2.backend.sqlite, testthat, yaml,
         drat, utils, R.utils, tools
 Suggests: covr, knitr, rmarkdown, shiny, shinyFiles
 License: MIT + file LICENSE
-MD5sum: 24f6944fd5cc894a3fcf1833cb86a4be
+MD5sum: 6b01ce9a6853153b2aad4a783385a0f3
 NeedsCompilation: no
 
 Package: LEEF.2.archive.default
