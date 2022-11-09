@@ -138,7 +138,7 @@ Depends: R (>= 3.5.0)
 Imports: bemovi.LEEF (>= 1.0.1), R.utils, utils, parallel, data.table,
         dplyr, purrr, tidyselect, magrittr, yaml, rlang, e1071, loggit
 License: MIT + file LICENSE
-MD5sum: ef1792ae56f435db7b6e9bbad657eeba
+MD5sum: 0abf0c40b9f1abd9474446e516c76583
 NeedsCompilation: no
 
 Package: LEEF.2.measurement.flowcam
