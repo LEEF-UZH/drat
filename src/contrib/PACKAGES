@@ -219,7 +219,7 @@ Imports: R.utils, flowCore (>= 2.0), tiff, yaml, plyr, tidyr, loggit,
         magrittr
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: d94bd72e40d556becb4c3ca69814ed31
+MD5sum: a7aa9f4c4d45092e4cccb8a0df2b4f26
 NeedsCompilation: no
 
 Package: LEEF.2.measurement.manualcount
