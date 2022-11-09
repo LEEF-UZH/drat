@@ -181,7 +181,7 @@ Depends: R (>= 3.5.0)
 Imports: bemovi.LEEF (>= 1.0.1), R.utils, utils, parallel, data.table,
         dplyr, purrr, tidyselect, magrittr, yaml, rlang, e1071, loggit
 License: MIT + file LICENSE
-MD5sum: 6fdb1391228477f36ec6637b89ed1f55
+MD5sum: c9b49c15ced07485ee9701ba700cb371
 NeedsCompilation: no
 
 Package: LEEF.2.measurement.bemovi
