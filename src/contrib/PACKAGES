@@ -211,7 +211,7 @@ Imports: R.utils, flowCore (>= 2.0), tiff, yaml, plyr, tidyr, loggit,
         magrittr
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 7090e3d3b4b3ba80359be8c21c1b58d1
+MD5sum: d94bd72e40d556becb4c3ca69814ed31
 NeedsCompilation: no
 
 Package: LEEF.analysis
