@@ -232,6 +232,15 @@ License: MIT + file LICENSE
 MD5sum: db4dbb90c296f663f904b2b5b9c88fd4
 NeedsCompilation: no
 
+Package: LEEF.2.measurement.bemovi
+Version: 0.9.5
+Depends: R (>= 3.5.0)
+Imports: bemovi.LEEF (>= 1.0.1), R.utils, utils, parallel, data.table,
+        dplyr, purrr, tidyselect, magrittr, yaml, rlang, e1071, loggit
+License: MIT + file LICENSE
+MD5sum: dcccead9d81b89f1e95a4ed6334baaa1
+NeedsCompilation: no
+
 Package: LEEF.2.measurement.conductivity
 Version: 0.9.0
 Depends: R (>= 3.5.0)
