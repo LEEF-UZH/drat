@@ -433,7 +433,7 @@ Depends: R (>= 3.5.0)
 Imports: utils, yaml, loggit
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 2ad2494a9d6b051ead4e4ba087bb8966
+MD5sum: d7618b9cf3f757cce15beb0e4edb14e7
 NeedsCompilation: no
 
 Package: LEEF.analysis
