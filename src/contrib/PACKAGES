@@ -424,7 +424,7 @@ Depends: R (>= 3.5.0)
 Imports: dplyr, readxl, yaml, loggit
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 7c3c8982acd6980706d3b3dfbdcc1109
+MD5sum: 7b2e1deeab3dae7ccb3efacee1f97143
 NeedsCompilation: no
 
 Package: LEEF.2.measurement.o2meter
