@@ -346,7 +346,7 @@ Depends: R (>= 3.5.0)
 Imports: bemovi.LEEF (>= 1.0.1), R.utils, utils, parallel, data.table,
         dplyr, purrr, tidyselect, magrittr, yaml, rlang, e1071, loggit
 License: MIT + file LICENSE
-MD5sum: 08ad8bc860343d18b26ad073bd757241
+MD5sum: 1c906192ffae92206e3c8468aff1c6f8
 NeedsCompilation: no
 
 Package: LEEF.2.measurement.conductivity
