@@ -346,7 +346,7 @@ Depends: R (>= 3.5.0)
 Imports: bemovi.LEEF (>= 1.0.1), R.utils, utils, parallel, data.table,
         dplyr, purrr, tidyselect, magrittr, yaml, rlang, e1071, loggit
 License: MIT + file LICENSE
-MD5sum: 08ad8bc860343d18b26ad073bd757241
+MD5sum: 1c906192ffae92206e3c8468aff1c6f8
 NeedsCompilation: no
 
 Package: LEEF.2.measurement.conductivity
@@ -355,7 +355,7 @@ Depends: R (>= 3.5.0)
 Imports: dplyr, readxl, yaml, loggit
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 99235d261e05fffd0fddab47ab3b25d7
+MD5sum: 63f16bf2b277b3d0538d3d49b4913d9d
 NeedsCompilation: no
 
 Package: LEEF.2.measurement.flowcam
@@ -385,7 +385,7 @@ Imports: data.table, yaml, utils, plyr, dplyr, purrr, magrittr, e1071,
         tidyselect, stats, loggit, randomForest
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 0bb48261ff0259f5e2f0fb480d7482f8
+MD5sum: 075b35cbe4e55e0676abdba9ba77f618
 NeedsCompilation: no
 
 Package: LEEF.2.measurement.flowcytometer
@@ -405,7 +405,7 @@ Imports: R.utils, flowCore (>= 2.0), tiff, yaml, plyr, tidyr, loggit,
         magrittr
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 361af71e5cccdd30e098313b2eb1092a
+MD5sum: 70b6a3a059249004a12e2fe69681bdb2
 NeedsCompilation: no
 
 Package: LEEF.2.measurement.flowcytometer
@@ -424,7 +424,7 @@ Depends: R (>= 3.5.0)
 Imports: dplyr, readxl, yaml, loggit
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 7c3c8982acd6980706d3b3dfbdcc1109
+MD5sum: 7b2e1deeab3dae7ccb3efacee1f97143
 NeedsCompilation: no
 
 Package: LEEF.2.measurement.o2meter
@@ -433,7 +433,7 @@ Depends: R (>= 3.5.0)
 Imports: utils, yaml, loggit
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 2ad2494a9d6b051ead4e4ba087bb8966
+MD5sum: d7618b9cf3f757cce15beb0e4edb14e7
 NeedsCompilation: no
 
 Package: LEEF.analysis
@@ -1361,7 +1361,7 @@ Depends: R (>= 3.5.0)
 Imports: loggit, utils, tools, DBI, RSQLite
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 82e61e5b096f4481c82716c4399d8f12
+MD5sum: 869e6fdaff608a62cbd7f1b9aa4a3913
 NeedsCompilation: no
 
 Package: LEEF.measurement.toc
