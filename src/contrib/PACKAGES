@@ -1363,3 +1363,12 @@ Suggests: testthat, openssl
 License: MIT + file LICENSE
 MD5sum: 82e61e5b096f4481c82716c4399d8f12
 NeedsCompilation: no
+
+Package: LEEF.measurement.toc
+Version: 0.9.5
+Depends: R (>= 3.5.0)
+Imports: loggit, utils, tools, DBI, RSQLite
+Suggests: testthat, openssl
+License: MIT + file LICENSE
+MD5sum: 869394084dc8d612c783873526692155
+NeedsCompilation: no
