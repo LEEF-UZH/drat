@@ -1370,5 +1370,5 @@ Depends: R (>= 3.5.0)
 Imports: loggit, utils, tools, DBI, RSQLite
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 869394084dc8d612c783873526692155
+MD5sum: 9e203e74a61eb32728902b1375ab2706
 NeedsCompilation: no
