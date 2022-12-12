@@ -999,7 +999,7 @@ Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
         dbplyr, dplyr, magrittr, rlang, tibble, pbapply, pbmcapply
 Suggests: knitr
 License: MIT + file LICENSE
-MD5sum: cdbd36d85dab6d2e2d5e979781966d9f
+MD5sum: a756ef3fab29a10526e695860a67c8a4
 NeedsCompilation: no
 
 Package: LEEF.archive.default
