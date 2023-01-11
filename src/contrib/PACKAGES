@@ -1391,3 +1391,11 @@ Suggests: testthat, openssl
 License: MIT + file LICENSE
 MD5sum: defc409d7e56d2c8961c0c96c92be9df
 NeedsCompilation: no
+
+Package: zenDep
+Version: 0.2.2
+Depends: R (>= 4.1.0)
+Imports: utils, pbmcapply, yaml, zen4R (>= 0.7.1)
+License: MIT + file LICENSE
+MD5sum: af697922cc9d84e18cb3139f2047db79
+NeedsCompilation: no
