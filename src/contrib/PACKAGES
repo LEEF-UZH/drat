@@ -4,5 +4,74 @@ Depends: R (>= 3.5.0)
 Imports: utils, yaml, loggit
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 0f69530095c20b49c96eb3633882e144
+MD5sum: aba15e0023b297220079e0728f675b41
+NeedsCompilation: no
+
+Package: LEEF.analysis
+Version: 0.5.3
+Depends: R (>= 4.1.0)
+Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
+        dbplyr, dplyr, magrittr, rlang, tibble, pbapply, pbmcapply
+Suggests: knitr
+License: MIT + file LICENSE
+MD5sum: 47a4ecdf1f3aeb78d1ef96cba968a920
+NeedsCompilation: no
+
+Package: LEEF.analysis
+Version: 0.5.4
+Depends: R (>= 4.1.0)
+Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
+        dbplyr, dplyr, magrittr, rlang, tibble, pbapply, pbmcapply
+Suggests: knitr
+License: MIT + file LICENSE
+MD5sum: 91a95ecf59d56c05fcf5fac7bc481c2b
+NeedsCompilation: no
+
+Package: LEEF.analysis
+Version: 0.5.5
+Depends: R (>= 4.1.0)
+Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
+        dbplyr, dplyr, magrittr, rlang, tibble, pbapply, pbmcapply
+Suggests: knitr
+License: MIT + file LICENSE
+MD5sum: 4d467fccef09651382c6f7f112f3e01e
+NeedsCompilation: no
+
+Package: LEEF.analysis
+Version: 0.5.6
+Depends: R (>= 4.1.0)
+Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
+        dbplyr, dplyr, magrittr, rlang, tibble, pbapply, pbmcapply
+Suggests: knitr
+License: MIT + file LICENSE
+MD5sum: a756ef3fab29a10526e695860a67c8a4
+NeedsCompilation: no
+
+Package: LEEF.analysis
+Version: 0.5.7
+Depends: R (>= 4.1.0)
+Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
+        dbplyr, dplyr, magrittr, rlang, tibble, pbapply, pbmcapply
+Suggests: knitr
+License: MIT + file LICENSE
+MD5sum: a32d81ae07abc66855b20358d563cff5
+NeedsCompilation: no
+
+Package: LEEF.analysis
+Version: 0.5.8
+Depends: R (>= 4.1.0)
+Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
+        dbplyr, dplyr, magrittr, rlang, tibble, pbapply, pbmcapply
+Suggests: knitr
+License: MIT + file LICENSE
+MD5sum: 46ee052390528259dbd2cf2544440a80
+NeedsCompilation: no
+
+Package: LEEF.measurement.toc
+Version: 0.9.7
+Depends: R (>= 3.5.0)
+Imports: loggit, utils, tools, DBI, RSQLite
+Suggests: testthat, openssl
+License: MIT + file LICENSE
+MD5sum: b01bf8eef3af25433600682638fcb691
 NeedsCompilation: no
