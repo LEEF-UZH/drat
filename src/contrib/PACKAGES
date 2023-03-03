@@ -1430,6 +1430,16 @@ License: MIT + file LICENSE
 MD5sum: add8452ce49768acac7e96cb11c71717
 NeedsCompilation: no
 
+Package: LEEF.measurement.flowcytometer
+Version: 0.9.5
+Depends: R (>= 3.5.0)
+Imports: R.utils, flowCore (>= 2.0), tiff, yaml, plyr, tidyr, loggit,
+        magrittr
+Suggests: testthat, openssl
+License: MIT + file LICENSE
+MD5sum: e982ed2718745b93fdcb08da71062eb9
+NeedsCompilation: no
+
 Package: LEEF.measurement.incubatortemp
 Version: 0.8.0
 Depends: R (>= 3.5.0)
