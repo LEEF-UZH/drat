@@ -1437,7 +1437,7 @@ Imports: R.utils, flowCore (>= 2.0), tiff, yaml, plyr, tidyr, loggit,
         magrittr
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: a861709e354afdf8c281eec321184612
+MD5sum: 5cd6424046f3f04d1fc3226c1fc858bd
 NeedsCompilation: no
 
 Package: LEEF.measurement.incubatortemp
