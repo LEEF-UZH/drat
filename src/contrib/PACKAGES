@@ -1431,13 +1431,43 @@ MD5sum: add8452ce49768acac7e96cb11c71717
 NeedsCompilation: no
 
 Package: LEEF.measurement.flowcytometer
+Version: 0.9.5
+Depends: R (>= 3.5.0)
+Imports: R.utils, flowCore (>= 2.0), tiff, yaml, plyr, tidyr, loggit,
+        magrittr
+Suggests: testthat, openssl
+License: MIT + file LICENSE
+MD5sum: e982ed2718745b93fdcb08da71062eb9
+NeedsCompilation: no
+
+Package: LEEF.measurement.flowcytometer
 Version: 0.9.6
 Depends: R (>= 3.5.0)
 Imports: R.utils, flowCore (>= 2.0), tiff, yaml, plyr, tidyr, loggit,
         magrittr
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 5cd6424046f3f04d1fc3226c1fc858bd
+MD5sum: 77d1e398f72c9d486358658840cea8e4
+NeedsCompilation: no
+
+Package: LEEF.measurement.flowcytometer
+Version: 0.9.7
+Depends: R (>= 3.5.0)
+Imports: R.utils, flowCore (>= 2.0), tiff, yaml, plyr, tidyr, loggit,
+        magrittr
+Suggests: testthat, openssl
+License: MIT + file LICENSE
+MD5sum: 8e7546898505f120a0ac4f24f7bd2e3b
+NeedsCompilation: no
+
+Package: LEEF.measurement.flowcytometer
+Version: 0.9.9
+Depends: R (>= 3.5.0)
+Imports: R.utils, flowCore (>= 2.0), tiff, yaml, plyr, tidyr, loggit,
+        magrittr
+Suggests: testthat, openssl
+License: MIT + file LICENSE
+MD5sum: 6667c83be7bc0f1297a34e0243e19685
 NeedsCompilation: no
 
 Package: LEEF.measurement.incubatortemp
