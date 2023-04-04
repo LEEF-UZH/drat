@@ -1073,17 +1073,6 @@ Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
         quarto, data.table, stats, tidyr
 Suggests: knitr, putrrr
 License: MIT + file LICENSE
-MD5sum: 3e28b2b6f0a468cd464f26750ecaf864
-NeedsCompilation: no
-
-Package: LEEF.analysis
-Version: 0.5.23
-Depends: R (>= 4.1.0)
-Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
-        dplyr, dbplyr, magrittr, rlang, tibble, pbapply, pbmcapply,
-        quarto, data.table, stats, tidyr
-Suggests: knitr, putrrr
-License: MIT + file LICENSE
 MD5sum: dddc7cd0a2fe4b945d11c06fe13d2355
 NeedsCompilation: no
 
