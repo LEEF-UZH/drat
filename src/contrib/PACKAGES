@@ -1062,7 +1062,18 @@ Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
         quarto, data.table, stats, tidyr
 Suggests: knitr, putrrr
 License: MIT + file LICENSE
-MD5sum: d9352f63fbcf829f74d1be3f098ec2eb
+MD5sum: 5e677288f0003a839aaf71545f290d36
+NeedsCompilation: no
+
+Package: LEEF.analysis
+Version: 0.5.23
+Depends: R (>= 4.1.0)
+Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
+        dplyr, dbplyr, magrittr, rlang, tibble, pbapply, pbmcapply,
+        quarto, data.table, stats, tidyr
+Suggests: knitr, putrrr
+License: MIT + file LICENSE
+MD5sum: 3e28b2b6f0a468cd464f26750ecaf864
 NeedsCompilation: no
 
 Package: LEEF.analysis
@@ -1420,6 +1431,16 @@ Imports: R.utils, flowCore (>= 2.0), tiff, yaml, plyr, tidyr, loggit,
 Suggests: testthat, openssl
 License: MIT + file LICENSE
 MD5sum: 625db1daec03539659224301409240f4
+NeedsCompilation: no
+
+Package: LEEF.measurement.flowcytometer
+Version: 0.9.10
+Depends: R (>= 3.5.0)
+Imports: R.utils, flowCore (>= 2.0), tiff, yaml, plyr, tidyr, loggit,
+        magrittr
+Suggests: testthat, openssl
+License: MIT + file LICENSE
+MD5sum: 72d4a3bf9f840bec56412cab857dfde4
 NeedsCompilation: no
 
 Package: LEEF.measurement.flowcytometer
