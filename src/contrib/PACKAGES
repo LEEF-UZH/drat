@@ -1439,7 +1439,7 @@ Imports: R.utils, flowCore (>= 2.0), tiff, yaml, plyr, tidyr, loggit,
         magrittr
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 33ceabe3d8f17041711d10c4af42d2a5
+MD5sum: 4015b4da3b73046993cdf75120212083
 NeedsCompilation: no
 
 Package: LEEF.measurement.flowcytometer
