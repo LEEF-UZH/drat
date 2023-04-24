@@ -1084,7 +1084,7 @@ Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
         quarto, data.table, stats, tidyr
 Suggests: knitr, putrrr
 License: MIT + file LICENSE
-MD5sum: 25bac13d782f3c9610753f5d5e7eae54
+MD5sum: 1e5689dc586692f2958da155c96eb4aa
 NeedsCompilation: no
 
 Package: LEEF.analysis
@@ -1440,7 +1440,17 @@ Imports: R.utils, flowCore (>= 2.0), tiff, yaml, plyr, tidyr, loggit,
         magrittr
 Suggests: testthat, openssl
 License: MIT + file LICENSE
-MD5sum: 72d4a3bf9f840bec56412cab857dfde4
+MD5sum: 9a35234b5f98f6a529c16c2c2c3d84fc
+NeedsCompilation: no
+
+Package: LEEF.measurement.flowcytometer
+Version: 0.9.11
+Depends: R (>= 3.5.0)
+Imports: R.utils, flowCore (>= 2.0), tiff, yaml, plyr, tidyr, loggit,
+        magrittr
+Suggests: testthat, openssl
+License: MIT + file LICENSE
+MD5sum: 4015b4da3b73046993cdf75120212083
 NeedsCompilation: no
 
 Package: LEEF.measurement.flowcytometer
