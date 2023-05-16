@@ -1149,7 +1149,7 @@ Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
         quarto, data.table, stats, tidyr
 Suggests: knitr, putrrr
 License: MIT + file LICENSE
-MD5sum: 930af30c1426aa9b3712a5d0bf4b41b6
+MD5sum: 51b2f6bf1be8e573815d080177fbdecb
 NeedsCompilation: no
 
 Package: LEEF.analysis
