@@ -1519,6 +1519,16 @@ MD5sum: 015804cb2a0cd6b3202a9a64d943a20a
 NeedsCompilation: no
 
 Package: LEEF.measurement.flowcytometer
+Version: 0.9.13
+Depends: R (>= 3.5.0)
+Imports: R.utils, flowCore (>= 2.0), tiff, yaml, plyr, tidyr, loggit,
+        magrittr
+Suggests: testthat, openssl
+License: MIT + file LICENSE
+MD5sum: ad88d10dbb4eb9d0934e6bb2126b1279
+NeedsCompilation: no
+
+Package: LEEF.measurement.flowcytometer
 Version: 0.9.2
 Depends: R (>= 3.5.0)
 Imports: R.utils, flowCore (>= 2.0), tiff, yaml, plyr, tidyr, loggit,
