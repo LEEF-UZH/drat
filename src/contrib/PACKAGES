@@ -1153,6 +1153,17 @@ MD5sum: 5fbae5914bb7a4b2208d06863e2a4058
 NeedsCompilation: no
 
 Package: LEEF.analysis
+Version: 0.5.32
+Depends: R (>= 4.1.0)
+Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
+        dplyr, dbplyr, magrittr, rlang, tibble, pbapply, pbmcapply,
+        quarto, data.table, stats, tidyr
+Suggests: knitr, putrrr
+License: MIT + file LICENSE
+MD5sum: 881cadac2dd12c58debfa72eec866eb5
+NeedsCompilation: no
+
+Package: LEEF.analysis
 Version: 0.5.4
 Depends: R (>= 4.1.0)
 Imports: DBI, RSQLite, yaml, parallel, ggplot2, rmarkdown, utils,
