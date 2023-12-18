@@ -178,6 +178,14 @@ License: MIT + file LICENSE
 MD5sum: 66cfaff7aa7c012ca08132ab95c9d5e9
 NeedsCompilation: no
 
+Package: LEEF.2.archive.default
+Version: 1.0.0
+Depends: R (>= 3.5.0)
+Imports: openssl, yaml
+License: MIT + file LICENSE
+MD5sum: 34e5e06c10eb5f593f3023824098dc00
+NeedsCompilation: no
+
 Package: LEEF.2.backend.sqlite
 Version: 0.9.0
 Depends: R (>= 3.5.0)
